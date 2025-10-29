@@ -1,0 +1,266 @@
+[
+  {
+    "id": "square-1",
+    "type": "square",
+    "x": 100,
+    "y": 100,
+    "width": 656,
+    "height": 281,
+    "text": "",
+    "zIndex": 1,
+    "style": {
+      "backgroundColor": "rgb(0, 0, 0)"
+    },
+    "display": "block"
+  },
+  {
+    "id": "square-2",
+    "type": "square",
+    "x": 137,
+    "y": 161,
+    "width": 100,
+    "height": 100,
+    "text": "",
+    "zIndex": 2,
+    "style": {
+      "backgroundColor": "orange"
+    },
+    "display": "block",
+    "dataID": "test1",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": ""
+      }
+    ]
+  },
+  {
+    "id": "square-3",
+    "type": "square",
+    "x": 257,
+    "y": 200,
+    "width": 100,
+    "height": 100,
+    "text": "",
+    "zIndex": 3,
+    "style": {
+      "backgroundColor": "orange"
+    },
+    "display": "block",
+    "dataID": "test2",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "OFF",
+        "backgroundColor": "red",
+        "color": "white",
+        "display": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "ON",
+        "backgroundColor": "green",
+        "color": "black",
+        "display": ""
+      }
+    ]
+  },
+  {
+    "id": "square-4",
+    "type": "square",
+    "x": 414,
+    "y": 200,
+    "width": 100,
+    "height": 100,
+    "text": "",
+    "zIndex": 4,
+    "style": {
+      "backgroundColor": "orange"
+    },
+    "display": "block",
+    "dataID": "test2",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "OFF",
+        "backgroundColor": "",
+        "color": "",
+        "display": "none"
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "ON",
+        "backgroundColor": "",
+        "color": "",
+        "display": ""
+      }
+    ]
+  },
+  {
+    "id": "square-5",
+    "type": "square",
+    "x": 580,
+    "y": 200,
+    "width": 100,
+    "height": 100,
+    "text": "",
+    "zIndex": 5,
+    "style": {
+      "backgroundColor": "orange"
+    },
+    "display": "block",
+    "dataID": "test2",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "OFF",
+        "backgroundColor": "",
+        "color": "",
+        "display": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "ON",
+        "backgroundColor": "",
+        "color": "",
+        "display": "none"
+      }
+    ]
+  },
+  {
+    "id": "square-6",
+    "type": "square",
+    "x": 651,
+    "y": 200,
+    "width": 100,
+    "height": 100,
+    "text": "",
+    "zIndex": 6,
+    "style": {
+      "backgroundColor": "orange"
+    },
+    "display": "block"
+  },
+  {
+    "id": "input-1",
+    "type": "input",
+    "x": 157,
+    "y": 308,
+    "width": 60,
+    "height": 30,
+    "zIndex": 7,
+    "style": {
+      "outline": "none",
+      "padding": "0px"
+    },
+    "display": "block",
+    "value": "",
+    "dataID": "test1",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": ""
+      }
+    ]
+  },
+  {
+    "id": "button-1",
+    "type": "button",
+    "x": 234,
+    "y": 321,
+    "width": 70,
+    "height": 30,
+    "text": "button",
+    "zIndex": 8,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "display": "block",
+    "dataID": "test2",
+    "command": {
+      "type": "set",
+      "value": "1"
+    },
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "",
+        "backgroundColor": "orange",
+        "color": "",
+        "display": ""
+      }
+    ]
+  },
+  {
+    "id": "button-2",
+    "type": "button",
+    "x": 308,
+    "y": 320,
+    "width": 70,
+    "height": 30,
+    "text": "button",
+    "zIndex": 9,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "display": "block",
+    "dataID": "test2",
+    "command": {
+      "type": "set",
+      "value": "0"
+    },
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "",
+        "backgroundColor": "orange",
+        "color": "",
+        "display": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": ""
+      }
+    ]
+  }
+]

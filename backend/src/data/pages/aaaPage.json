@@ -1,0 +1,31 @@
+[
+  {
+    "id": "circle-1",
+    "type": "circle",
+    "x": 100,
+    "y": 100,
+    "width": 400,
+    "height": 293,
+    "text": "aaa",
+    "zIndex": 1,
+    "style": {
+      "borderRadius": "50%",
+      "backgroundColor": "skyblue"
+    },
+    "display": "block"
+  },
+  {
+    "id": "square-1",
+    "type": "square",
+    "x": 720,
+    "y": 144,
+    "width": 218,
+    "height": 293,
+    "text": "aaaPage",
+    "zIndex": 2,
+    "style": {
+      "backgroundColor": "orange"
+    },
+    "display": "block"
+  }
+]

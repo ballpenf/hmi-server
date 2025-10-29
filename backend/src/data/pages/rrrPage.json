@@ -1,0 +1,16 @@
+[
+  {
+    "id": "square-1",
+    "type": "square",
+    "x": 100,
+    "y": 100,
+    "width": 698,
+    "height": 454,
+    "text": "rrrPage",
+    "zIndex": 1,
+    "style": {
+      "backgroundColor": "orange"
+    },
+    "display": "block"
+  }
+]

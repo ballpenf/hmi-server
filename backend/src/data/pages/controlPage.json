@@ -1,0 +1,32 @@
+[
+  {
+    "id": "input-1",
+    "type": "input",
+    "x": 400,
+    "y": 100,
+    "width": 110,
+    "height": 30,
+    "zIndex": 1,
+    "style": {
+      "outline": "none",
+      "padding": "0px"
+    },
+    "js": "\n      document.getElementById('input-1-btn')?.addEventListener('click', () => {\n        const val = (document.getElementById('input-1-field') as HTMLInputElement)?.value;\n        console.log('입력된 값:', val);\n        // 서버 통신 부분은 웹 포팅 시 활성화\n        // window.electronAPI.sendValue(val);\n      });\n    ",
+    "value": ""
+  },
+  {
+    "id": "input-2",
+    "type": "input",
+    "x": 400,
+    "y": 200,
+    "width": 110,
+    "height": 50,
+    "zIndex": 2,
+    "style": {
+      "outline": "none",
+      "padding": "0px"
+    },
+    "js": "\n      document.getElementById('input-2-btn')?.addEventListener('click', () => {\n        const val = (document.getElementById('input-2-field') as HTMLInputElement)?.value;\n        console.log('입력된 값:', val);\n        // 서버 통신 부분은 웹 포팅 시 활성화\n        // window.electronAPI.sendValue(val);\n      });\n    ",
+    "value": ""
+  }
+]

@@ -1,0 +1,2267 @@
+[
+  {
+    "id": "image-1",
+    "type": "image",
+    "x": 1065,
+    "y": 200,
+    "width": 50,
+    "height": 50,
+    "zIndex": 105,
+    "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMyIgaGVpZ2h0PSI3MSIgdmlld0JveD0iMCAwIDIzIDcxIj4KPGltYWdlIGhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQmNBQUFCSENBWUFBQURzcE54WEFBQUZ0MGxFUVZSNG5KMllXV3hVWlJTQXZ6UFR2ZXhiS2FXZEF0MHBMYVZzWVZGUVE0d0VTZU9MaEJBSXZLRmlKSW9QUHBpNEpDcnhRWU1oUnFPSkdrUWZKS0JFSVFRdEVTSUJRbW5GTHRBcFhXZ1JrRVVFMmxsNmZQaGhwbVZtN244N0oybHllKytaNzU3LzNQT2ZjLzRqUEpEWE5xUHZ2U0lBM0xnTlRXMXcranhVbDhMY01wZzAzdWg5OURWcy8wQUZGNUx5OEdKd0VNNDJ3MXU3bFFPL0V2UGpGUXZSZDdjSjRVRTNXQ01SU0VVUk9qZ0lMWDVrVGpGYVZRcnpLb1NtTnFXaEJScGFqRzd0YlBUTStkaVh1NUkzdDRwZU9TWWFib3IrM1Q0cHV2TlYwWkd5aGxtdzZ3M1JUWFdRbVI2ckdBakNEMGRnL1E1My9nYndQTHpZOEN5NlptVjhNRUJhS2p5eENGN2U0SDRGRVhodEJVelBjVmFlTWdFV1ZMcEZENEg3cHJsYmJlNWttRmVPSytzajhIdjk3cXpwSDREK0FDeXV0cjhnQXUvcWMrZktLOWZocjNaazlXUENvaXJuRjBUZzlhZmd6NHZPWUg4UEhENWhybjNUb0NEWFdUOEMvK1YzWk05QitQZS8rSXAzNzhQK28vRGR6eW9iMTRvdXFJUzhLYzd3bEtIL3ZQKzVpcjliOVBVdGtKOXJ3aThZaE91M1lPY1g4T1UrbGFVMTZLWTZ5TXVCL0tuTzhJU3ljQTY2NVRuUkpUVlJ2NjVhZ2g3NlREVFVLTnJmSUhwZ2w3UFBFOFpmVlFuYTJJWXNuSU5PSEFjMTViQnhyVkJVOEVCQm9ia0RLdGNtM3JFcDhXNld6MExmZmtrUUQrckxOUjl2ZEhhc1dibVRvR3dHMnRJUjM4aTQ4T1oycE5pSGxzNUlaSk9Sck13NEx4MGlua1FQK2dkQUxhRWZDc04waDQrYUVINzVtak1ZVElIeE9jUjZRbmg3RjlhcWs1b0NKWVZKd0M5MEt2MER6dkMwVkNqMkpVNTRDZUhOZmhmSlRHQldmdUxIQ2VGSFQ5cnJwQUJUSnlZQkIrTlRteWd3cHpqK1RuV0VYN3RwaDRmQ01Lc2cvak5IdUwvYklUODhFQkdpS1dFazhKWU9ZNW1UWktSQitjd2s0STJ0eWtEQUdlNzF3dXhaOGRkbnRkeTJrUlNZTVQzK00wZjR5VVlrUGMwWkxrQjJWaEp3TUpYZUp1RXd6QzJMRFVjcnZLdlBIakhoTUpUNFl1OWI0ZTFkV0J1VWpBeWx1REFKK0xsV0pSQnd4cWVuQ3BYRnNldXp3czlmaE5DZ3ZkV0xGK3RXK01VdTdIN1IrRDJNRmQ3UWduaHNXZ0x4ZEt4d01BY3dtNFREc0x4MitCcGR3YnV1MkhYU1VwV1pqK3hVVi9EV1Mwb283T3o0ekhTSktYbXU0TTN0RUFvN1I0elhDMldQUkl3cnVML2J0QkZPSWdLRjA1S0FYK3FGRks5ZGIrem9KT0JuemlPQmtEM2NnMEhUTzQ0SUR0QjMxWjdBTXRLSG56WmN3N3RkaE9Pb0xNV1hsd1Q4UXFkYUc5T3NES0VvUDdvKzEzQi9qL0dwazZTbW1sNSt4UER1UHZzSDlYb2daMGdINWhwKzlRYUlSVnN4bTJuRThMdjM0ZFlkaS9VSzZXblJldW9hZm44QXJsNTNEa2NSR0RzcW10dGR3NXZha001ZWRUUmR4T3pTaDBNSzEzQ0Fqc3NRc3VTWXJJem9SaG9SdlBlcVBZRmxwRVBPcENUZ2YvOWpsdTRrWGcrTXlYWUJyNjBZN3VHT3k5RGU3WHlFREErYXpRUnhEcmx6eTlEVmp3c2xoV1lzMVhjTjlYZkR3V05LL1NuazQyOVV0MitVaEQyNVlBNitDeXJSWWZDbmw2UGIxZ3ZMNWtGMlp2UitJQWpMYW9YZGUxVS8vUjdKbTRKdVhRZmp4OFRDUFI2WVBNNk1xeUx3NmxMMHhYWENrNHRqQzBOYUtpeWJCMTZQMEhORmRjOUJaY2xjWWVXaU9KWUxUQmdMZVRrUzlmbXFwZkQ0Z3NRVngrdUIrWlZROTVUUTBvRzBkVUl3RkY4M085dmttQWk4eEdkaTFFa3kwcUxuVG45UDdGUnBJR2pPcmwyOTBPeFg0NWFxVXJSZ0JLTy9wVFZvYXdmY3ZHTVNsYjhIR3BxaHFVMXB2UVNIanBzc2tRTFEySXAwOWFyYUN4bjBYWVBqWnhGUWZ2ek5XVGZpbGd1ZGNOOXlIQjhJR0N2ZFNnUisrQVRVbjA1OE5Bd1BtbUg5dmlQdWg5R1JVR3hvUVQ3NVZ0WHJFWmJXbUNuUVF3a0U0V1FqN042cm5HaHdQenVQVWF3cFI5ZXNFSW9MWWZvVTZMdHVPcTZmNnBVL3ppVTVsSC8rR2ZUREhhTFZwZEY4TXI5eWVHNTVaNXZvQyt2Y0RZbGhpRnZ5cDhMbU9saGNMVnpzUk51N29lMlNtU1VXRjhETWZKaGRCRi90Rit5bCtoRTR3SmhSc0xnSzVsZVltbm5uSG96S05JZFlOK09SUitWL2lMVGlFNDhXRzNjQUFBQUFTVVZPUks1Q1lJST0iIHdpZHRoPSIyMyIgaGVpZ2h0PSI3MSIvPgo8L3N2Zz4=",
+    "style": {
+      "objectFit": "contain"
+    },
+    "js": "\n            document.getElementById('image-1').addEventListener('click', () => {\n              console.log('image-1 이미지 클릭됨. 경로: C:\\Users\\user00\\Downloads\\on_right.svg');\n            });\n          ",
+    "dataID": "relay1",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": "none"
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": ""
+      }
+    ]
+  },
+  {
+    "id": "square-1",
+    "type": "square",
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 720,
+    "text": "",
+    "zIndex": 2,
+    "style": {
+      "backgroundColor": "rgb(0, 0, 0)"
+    },
+    "js": "\n        document.getElementById('square-1').addEventListener('click', () => {\n          alert('square-1 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-34",
+    "type": "square",
+    "x": 80,
+    "y": 110,
+    "width": 400,
+    "height": 250,
+    "text": "",
+    "zIndex": 3,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-34').addEventListener('click', () => {\n          alert('square-34 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-2",
+    "type": "square",
+    "x": 80,
+    "y": 50,
+    "width": 1190,
+    "height": 50,
+    "text": "",
+    "zIndex": 4,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "borderRadius": 12
+    },
+    "js": "\n        document.getElementById('square-2').addEventListener('click', () => {\n          alert('square-2 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-3",
+    "type": "square",
+    "x": 10,
+    "y": 10,
+    "width": 60,
+    "height": 50,
+    "text": "Main",
+    "zIndex": 5,
+    "style": {
+      "backgroundColor": "rgb(0, 102, 255)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)",
+      "border": "solid 1px rgb(85, 85, 85)",
+      "borderColor": "rgb(85, 85, 85)",
+      "fontSize": 12
+    },
+    "js": "\n        document.getElementById('square-3').addEventListener('click', () => {\n          alert('square-3 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-4",
+    "type": "square",
+    "x": 10,
+    "y": 490,
+    "width": 60,
+    "height": 50,
+    "text": "통계",
+    "zIndex": 6,
+    "style": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)",
+      "border": "solid 1px rgb(85, 85, 85)",
+      "borderColor": "rgb(85, 85, 85)",
+      "fontSize": 12
+    },
+    "js": "\n        document.getElementById('square-4').addEventListener('click', () => {\n          alert('square-4 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-5",
+    "type": "square",
+    "x": 10,
+    "y": 550,
+    "width": 60,
+    "height": 50,
+    "text": "트렌드",
+    "zIndex": 7,
+    "style": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)",
+      "border": "solid 1px rgb(85, 85, 85)",
+      "borderColor": "rgb(85, 85, 85)",
+      "fontSize": 12
+    },
+    "js": "\n        document.getElementById('square-5').addEventListener('click', () => {\n          alert('square-5 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-6",
+    "type": "square",
+    "x": 10,
+    "y": 610,
+    "width": 60,
+    "height": 50,
+    "text": "SMS 관리",
+    "zIndex": 8,
+    "style": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)",
+      "border": "solid 1px rgb(85, 85, 85)",
+      "borderColor": "rgb(85, 85, 85)",
+      "fontSize": 12
+    },
+    "js": "\n        document.getElementById('square-6').addEventListener('click', () => {\n          alert('square-6 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-7",
+    "type": "square",
+    "x": 10,
+    "y": 130,
+    "width": 60,
+    "height": 50,
+    "text": "장비",
+    "zIndex": 9,
+    "style": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)",
+      "border": "solid 1px rgb(85, 85, 85)",
+      "borderColor": "rgb(85, 85, 85)",
+      "fontSize": 12
+    },
+    "js": "\n        document.getElementById('square-7').addEventListener('click', () => {\n          alert('square-7 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-8",
+    "type": "square",
+    "x": 10,
+    "y": 70,
+    "width": 60,
+    "height": 50,
+    "text": "계통도",
+    "zIndex": 10,
+    "style": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)",
+      "border": "solid 1px rgb(85, 85, 85)",
+      "borderColor": "rgb(85, 85, 85)",
+      "fontSize": 12
+    },
+    "js": "\n        document.getElementById('square-8').addEventListener('click', () => {\n          alert('square-8 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-9",
+    "type": "square",
+    "x": 10,
+    "y": 430,
+    "width": 60,
+    "height": 50,
+    "text": "제어 이력",
+    "zIndex": 11,
+    "style": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)",
+      "border": "solid 1px rgb(85, 85, 85)",
+      "borderColor": "rgb(85, 85, 85)",
+      "fontSize": 12
+    },
+    "js": "\n        document.getElementById('square-9').addEventListener('click', () => {\n          alert('square-9 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-10",
+    "type": "square",
+    "x": 10,
+    "y": 250,
+    "width": 60,
+    "height": 50,
+    "text": "제어",
+    "zIndex": 12,
+    "style": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)",
+      "border": "solid 1px rgb(85, 85, 85)",
+      "borderColor": "rgb(85, 85, 85)",
+      "fontSize": 12
+    },
+    "js": "\n        document.getElementById('square-10').addEventListener('click', () => {\n          alert('square-10 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-11",
+    "type": "square",
+    "x": 10,
+    "y": 310,
+    "width": 60,
+    "height": 50,
+    "text": "    시스템          설정",
+    "zIndex": 13,
+    "style": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)",
+      "border": "solid 1px rgb(85, 85, 85)",
+      "borderColor": "rgb(85, 85, 85)",
+      "fontSize": 12
+    },
+    "js": "\n        document.getElementById('square-11').addEventListener('click', () => {\n          alert('square-11 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-12",
+    "type": "square",
+    "x": 10,
+    "y": 370,
+    "width": 60,
+    "height": 50,
+    "text": "알람\n이력",
+    "zIndex": 14,
+    "style": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)",
+      "border": "solid 1px rgb(85, 85, 85)",
+      "borderColor": "rgb(85, 85, 85)",
+      "fontSize": 12
+    },
+    "js": "\n        document.getElementById('square-12').addEventListener('click', () => {\n          alert('square-12 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-13",
+    "type": "square",
+    "x": 10,
+    "y": 670,
+    "width": 60,
+    "height": 50,
+    "text": "    시스템          상태",
+    "zIndex": 15,
+    "style": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)",
+      "border": "solid 1px rgb(85, 85, 85)",
+      "borderColor": "rgb(85, 85, 85)",
+      "fontSize": 12
+    },
+    "js": "\n        document.getElementById('square-13').addEventListener('click', () => {\n          alert('square-13 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-14",
+    "type": "square",
+    "x": 10,
+    "y": 190,
+    "width": 60,
+    "height": 50,
+    "text": "    배터리          상세",
+    "zIndex": 16,
+    "style": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)",
+      "border": "solid 1px rgb(85, 85, 85)",
+      "borderColor": "rgb(85, 85, 85)",
+      "fontSize": 12
+    },
+    "js": "\n        document.getElementById('square-14').addEventListener('click', () => {\n          alert('square-14 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-17",
+    "type": "square",
+    "x": 565,
+    "y": 0,
+    "width": 150,
+    "height": 50,
+    "text": "군산 PMS",
+    "zIndex": 17,
+    "style": {
+      "backgroundColor": "rgb(0, 0, 0)",
+      "fontSize": 30,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-17').addEventListener('click', () => {\n          alert('square-17 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-15",
+    "type": "square",
+    "x": 90,
+    "y": 50,
+    "width": 100,
+    "height": 50,
+    "text": "계통 주파수",
+    "zIndex": 18,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-15').addEventListener('click', () => {\n          alert('square-15 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-18",
+    "type": "square",
+    "x": 235,
+    "y": 50,
+    "width": 20,
+    "height": 50,
+    "text": "Hz",
+    "zIndex": 19,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-18').addEventListener('click', () => {\n          alert('square-18 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-19",
+    "type": "square",
+    "x": 190,
+    "y": 50,
+    "width": 40,
+    "height": 50,
+    "text": "312",
+    "zIndex": 20,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(0, 188, 212)",
+      "fontWeight": "bold"
+    },
+    "js": "\n        document.getElementById('square-19').addEventListener('click', () => {\n          alert('square-19 clicked');\n        });\n      ",
+    "dataID": "totalfrq"
+  },
+  {
+    "id": "square-16",
+    "type": "square",
+    "x": 95,
+    "y": 10,
+    "width": 63,
+    "height": 30,
+    "text": "메인 화면",
+    "zIndex": 21,
+    "style": {
+      "backgroundColor": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-16').addEventListener('click', () => {\n          alert('square-16 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-20",
+    "type": "square",
+    "x": 80,
+    "y": 10,
+    "width": 10,
+    "height": 30,
+    "text": ">",
+    "zIndex": 22,
+    "style": {
+      "backgroundColor": "rgb(0, 0, 0)",
+      "color": "rgb(0, 188, 212)"
+    },
+    "js": "\n        document.getElementById('square-20').addEventListener('click', () => {\n          alert('square-20 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-21",
+    "type": "square",
+    "x": 315,
+    "y": 50,
+    "width": 71,
+    "height": 50,
+    "text": "계통 전압",
+    "zIndex": 23,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-21').addEventListener('click', () => {\n          alert('square-21 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-22",
+    "type": "square",
+    "x": 395,
+    "y": 50,
+    "width": 50,
+    "height": 50,
+    "text": "219.3",
+    "zIndex": 24,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(0, 188, 212)",
+      "fontWeight": "bold",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-22').addEventListener('click', () => {\n          alert('square-22 clicked');\n        });\n      ",
+    "dataID": "totalvolt"
+  },
+  {
+    "id": "square-23",
+    "type": "square",
+    "x": 450,
+    "y": 50,
+    "width": 10,
+    "height": 50,
+    "text": "V",
+    "zIndex": 25,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-23').addEventListener('click', () => {\n          alert('square-23 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-24",
+    "type": "square",
+    "x": 500,
+    "y": 50,
+    "width": 126,
+    "height": 50,
+    "text": "PCS 총 유효전력",
+    "zIndex": 26,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-24').addEventListener('click', () => {\n          alert('square-24 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-25",
+    "type": "square",
+    "x": 630,
+    "y": 50,
+    "width": 50,
+    "height": 50,
+    "text": "1213",
+    "zIndex": 27,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(0, 188, 212)",
+      "fontWeight": "bold",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-25').addEventListener('click', () => {\n          alert('square-25 clicked');\n        });\n      ",
+    "dataID": "totalpower",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": "flex"
+      }
+    ]
+  },
+  {
+    "id": "square-26",
+    "type": "square",
+    "x": 690,
+    "y": 50,
+    "width": 25,
+    "height": 50,
+    "text": "kW",
+    "zIndex": 28,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-26').addEventListener('click', () => {\n          alert('square-26 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-27",
+    "type": "square",
+    "x": 780,
+    "y": 50,
+    "width": 93,
+    "height": 50,
+    "text": "PCS#1 상태",
+    "zIndex": 29,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-27').addEventListener('click', () => {\n          alert('square-27 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-28",
+    "type": "square",
+    "x": 880,
+    "y": 50,
+    "width": 38,
+    "height": 50,
+    "text": "대기",
+    "zIndex": 30,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(0, 188, 212)",
+      "fontWeight": "bold"
+    },
+    "js": "\n        document.getElementById('square-28').addEventListener('click', () => {\n          alert('square-28 clicked');\n        });\n      ",
+    "dataID": "pcs1start",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "정지",
+        "backgroundColor": "",
+        "color": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "운전",
+        "backgroundColor": "",
+        "color": ""
+      }
+    ]
+  },
+  {
+    "id": "square-29",
+    "type": "square",
+    "x": 950,
+    "y": 50,
+    "width": 95,
+    "height": 50,
+    "text": "BAT#1 상태",
+    "zIndex": 31,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-29').addEventListener('click', () => {\n          alert('square-29 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-30",
+    "type": "square",
+    "x": 1050,
+    "y": 50,
+    "width": 35,
+    "height": 50,
+    "text": "대기",
+    "zIndex": 32,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(0, 188, 212)",
+      "fontWeight": "bold"
+    },
+    "js": "\n        document.getElementById('square-30').addEventListener('click', () => {\n          alert('square-30 clicked');\n        });\n      ",
+    "dataID": "bat1state",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "방전",
+        "backgroundColor": "",
+        "color": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "충전",
+        "backgroundColor": "",
+        "color": ""
+      }
+    ]
+  },
+  {
+    "id": "square-31",
+    "type": "square",
+    "x": 1140,
+    "y": 50,
+    "width": 60,
+    "height": 50,
+    "text": "SOC#1",
+    "zIndex": 33,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-31').addEventListener('click', () => {\n          alert('square-31 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-32",
+    "type": "square",
+    "x": 1205,
+    "y": 50,
+    "width": 20,
+    "height": 50,
+    "text": "52",
+    "zIndex": 34,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(0, 188, 212)",
+      "fontWeight": "bold"
+    },
+    "js": "\n        document.getElementById('square-32').addEventListener('click', () => {\n          alert('square-32 clicked');\n        });\n      ",
+    "dataID": "bat1soc"
+  },
+  {
+    "id": "square-33",
+    "type": "square",
+    "x": 1230,
+    "y": 50,
+    "width": 20,
+    "height": 50,
+    "text": "%",
+    "zIndex": 35,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-33').addEventListener('click', () => {\n          alert('square-33 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-35",
+    "type": "square",
+    "x": 80,
+    "y": 370,
+    "width": 400,
+    "height": 250,
+    "text": "",
+    "zIndex": 36,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-35').addEventListener('click', () => {\n          alert('square-35 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-36",
+    "type": "square",
+    "x": 490,
+    "y": 110,
+    "width": 400,
+    "height": 250,
+    "text": "",
+    "zIndex": 37,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-36').addEventListener('click', () => {\n          alert('square-36 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-37",
+    "type": "square",
+    "x": 490,
+    "y": 370,
+    "width": 400,
+    "height": 250,
+    "text": "",
+    "zIndex": 38,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-37').addEventListener('click', () => {\n          alert('square-37 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-38",
+    "type": "square",
+    "x": 900,
+    "y": 110,
+    "width": 370,
+    "height": 510,
+    "text": "",
+    "zIndex": 39,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "borderRadius": 12,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-38').addEventListener('click', () => {\n          alert('square-38 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-39",
+    "type": "square",
+    "x": 90,
+    "y": 120,
+    "width": 60,
+    "height": 20,
+    "text": "PCS#1",
+    "zIndex": 40,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 20
+    },
+    "js": "\n        document.getElementById('square-39').addEventListener('click', () => {\n          alert('square-39 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-40",
+    "type": "square",
+    "x": 90,
+    "y": 380,
+    "width": 80,
+    "height": 20,
+    "text": "PCS 제어",
+    "zIndex": 41,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 20
+    },
+    "js": "\n        document.getElementById('square-40').addEventListener('click', () => {\n          alert('square-40 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-41",
+    "type": "square",
+    "x": 500,
+    "y": 120,
+    "width": 60,
+    "height": 20,
+    "text": "BAT#1",
+    "zIndex": 42,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 20
+    },
+    "js": "\n        document.getElementById('square-41').addEventListener('click', () => {\n          alert('square-41 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-42",
+    "type": "square",
+    "x": 500,
+    "y": 380,
+    "width": 100,
+    "height": 20,
+    "text": "시스템 설정",
+    "zIndex": 43,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 20,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-42').addEventListener('click', () => {\n          alert('square-42 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-43",
+    "type": "square",
+    "x": 910,
+    "y": 120,
+    "width": 60,
+    "height": 20,
+    "text": "계통도",
+    "zIndex": 44,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 20,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-43').addEventListener('click', () => {\n          alert('square-43 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-49",
+    "type": "square",
+    "x": 160,
+    "y": 135,
+    "width": 310,
+    "height": 50,
+    "text": "____________________________________________",
+    "zIndex": 45,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(128, 128, 128)"
+    },
+    "js": "\n        document.getElementById('square-49').addEventListener('click', () => {\n          alert('square-49 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-44",
+    "type": "square",
+    "x": 160,
+    "y": 140,
+    "width": 105,
+    "height": 20,
+    "text": "System  상태",
+    "zIndex": 46,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-44').addEventListener('click', () => {\n          alert('square-44 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-45",
+    "type": "square",
+    "x": 310,
+    "y": 140,
+    "width": 80,
+    "height": 20,
+    "text": "유효전력 :",
+    "zIndex": 47,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-45').addEventListener('click', () => {\n          alert('square-45 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-46",
+    "type": "square",
+    "x": 440,
+    "y": 140,
+    "width": 30,
+    "height": 20,
+    "text": "kW",
+    "zIndex": 48,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-46').addEventListener('click', () => {\n          alert('square-46 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-47",
+    "type": "square",
+    "x": 390,
+    "y": 140,
+    "width": 50,
+    "height": 20,
+    "text": "9999",
+    "zIndex": 49,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(0, 188, 212)"
+    },
+    "js": "\n        document.getElementById('square-47').addEventListener('click', () => {\n          alert('square-47 clicked');\n        });\n      ",
+    "dataID": "pcs1power"
+  },
+  {
+    "id": "square-50",
+    "type": "square",
+    "x": 335,
+    "y": 175,
+    "width": 50,
+    "height": 30,
+    "text": "운전",
+    "zIndex": 50,
+    "style": {
+      "backgroundColor": "orange",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-50').addEventListener('click', () => {\n          alert('square-50 clicked');\n        });\n      ",
+    "dataID": "pcs1start",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "운전",
+        "backgroundColor": "grey",
+        "color": "white"
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "운전",
+        "backgroundColor": "orange",
+        "color": "black"
+      }
+    ]
+  },
+  {
+    "id": "square-51",
+    "type": "square",
+    "x": 335,
+    "y": 215,
+    "width": 50,
+    "height": 30,
+    "text": "준비",
+    "zIndex": 51,
+    "style": {
+      "backgroundColor": "orange",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-51').addEventListener('click', () => {\n          alert('square-51 clicked');\n        });\n      ",
+    "dataID": "pcs1ready",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "준비",
+        "backgroundColor": "grey",
+        "color": "white"
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "준비",
+        "backgroundColor": "orange",
+        "color": "black"
+      }
+    ]
+  },
+  {
+    "id": "square-52",
+    "type": "square",
+    "x": 400,
+    "y": 255,
+    "width": 50,
+    "height": 30,
+    "text": "정상",
+    "zIndex": 52,
+    "style": {
+      "backgroundColor": "orange",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-52').addEventListener('click', () => {\n          alert('square-52 clicked');\n        });\n      ",
+    "dataID": "pcs1fault",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "정상",
+        "backgroundColor": "orange",
+        "color": "black"
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "정상",
+        "backgroundColor": "grey",
+        "color": "white"
+      }
+    ]
+  },
+  {
+    "id": "square-53",
+    "type": "square",
+    "x": 335,
+    "y": 295,
+    "width": 50,
+    "height": 30,
+    "text": "충전",
+    "zIndex": 53,
+    "style": {
+      "backgroundColor": "orange",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-53').addEventListener('click', () => {\n          alert('square-53 clicked');\n        });\n      ",
+    "dataID": "pcs1mode",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "충전",
+        "backgroundColor": "grey",
+        "color": "white"
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "충전",
+        "backgroundColor": "orange",
+        "color": "black"
+      }
+    ]
+  },
+  {
+    "id": "square-54",
+    "type": "square",
+    "x": 400,
+    "y": 175,
+    "width": 50,
+    "height": 30,
+    "text": "정지",
+    "zIndex": 54,
+    "style": {
+      "backgroundColor": "rgb(128, 128, 128)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-54').addEventListener('click', () => {\n          alert('square-54 clicked');\n        });\n      ",
+    "dataID": "pcs1start",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "정지",
+        "backgroundColor": "orange",
+        "color": "black"
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "정지",
+        "backgroundColor": "grey",
+        "color": "white"
+      }
+    ]
+  },
+  {
+    "id": "square-58",
+    "type": "square",
+    "x": 400,
+    "y": 215,
+    "width": 50,
+    "height": 30,
+    "text": "대기",
+    "zIndex": 55,
+    "style": {
+      "backgroundColor": "rgb(128, 128, 128)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-58').addEventListener('click', () => {\n          alert('square-58 clicked');\n        });\n      ",
+    "dataID": "pcs1ready",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "대기",
+        "backgroundColor": "orange",
+        "color": "black"
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "대기",
+        "backgroundColor": "grey",
+        "color": "white"
+      }
+    ]
+  },
+  {
+    "id": "square-59",
+    "type": "square",
+    "x": 400,
+    "y": 295,
+    "width": 50,
+    "height": 30,
+    "text": "방전",
+    "zIndex": 56,
+    "style": {
+      "backgroundColor": "rgb(128, 128, 128)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-59').addEventListener('click', () => {\n          alert('square-59 clicked');\n        });\n      ",
+    "dataID": "pcs1mode",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "방전",
+        "backgroundColor": "orange",
+        "color": "black"
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "방전",
+        "backgroundColor": "grey",
+        "color": "white"
+      }
+    ]
+  },
+  {
+    "id": "square-60",
+    "type": "square",
+    "x": 335,
+    "y": 255,
+    "width": 50,
+    "height": 30,
+    "text": "고장",
+    "zIndex": 57,
+    "style": {
+      "backgroundColor": "rgb(128, 128, 128)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-60').addEventListener('click', () => {\n          alert('square-60 clicked');\n        });\n      ",
+    "dataID": "pcs1fault",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "고장",
+        "backgroundColor": "grey",
+        "color": "white"
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "고장",
+        "backgroundColor": "orange",
+        "color": "black"
+      }
+    ]
+  },
+  {
+    "id": "square-48",
+    "type": "square",
+    "x": 270,
+    "y": 180,
+    "width": 45,
+    "height": 20,
+    "text": "운전 :",
+    "zIndex": 58,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-48').addEventListener('click', () => {\n          alert('square-48 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-55",
+    "type": "square",
+    "x": 270,
+    "y": 300,
+    "width": 45,
+    "height": 20,
+    "text": "동작 :",
+    "zIndex": 59,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-55').addEventListener('click', () => {\n          alert('square-55 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-68",
+    "type": "square",
+    "x": 650,
+    "y": 240,
+    "width": 220,
+    "height": 50,
+    "text": "_________________________________",
+    "zIndex": 60,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(128, 128, 128)"
+    },
+    "js": "\n        document.getElementById('square-68').addEventListener('click', () => {\n          alert('square-68 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-56",
+    "type": "square",
+    "x": 270,
+    "y": 260,
+    "width": 45,
+    "height": 20,
+    "text": "고장 :",
+    "zIndex": 61,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-56').addEventListener('click', () => {\n          alert('square-56 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-66",
+    "type": "square",
+    "x": 650,
+    "y": 210,
+    "width": 220,
+    "height": 50,
+    "text": "_______________________________________",
+    "zIndex": 62,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(128, 128, 128)"
+    },
+    "js": "\n        document.getElementById('square-66').addEventListener('click', () => {\n          alert('square-66 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-57",
+    "type": "square",
+    "x": 270,
+    "y": 220,
+    "width": 45,
+    "height": 20,
+    "text": "준비 :",
+    "zIndex": 63,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-57').addEventListener('click', () => {\n          alert('square-57 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-67",
+    "type": "square",
+    "x": 650,
+    "y": 180,
+    "width": 220,
+    "height": 50,
+    "text": "_________________________________",
+    "zIndex": 64,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(128, 128, 128)"
+    },
+    "js": "\n        document.getElementById('square-67').addEventListener('click', () => {\n          alert('square-67 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-65",
+    "type": "square",
+    "x": 650,
+    "y": 150,
+    "width": 220,
+    "height": 50,
+    "text": "_______________________________________",
+    "zIndex": 65,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(128, 128, 128)"
+    },
+    "js": "\n        document.getElementById('square-65').addEventListener('click', () => {\n          alert('square-65 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-61",
+    "type": "square",
+    "x": 650,
+    "y": 160,
+    "width": 80,
+    "height": 20,
+    "text": "배터리 전압",
+    "zIndex": 66,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-61').addEventListener('click', () => {\n          alert('square-61 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-62",
+    "type": "square",
+    "x": 650,
+    "y": 250,
+    "width": 30,
+    "height": 20,
+    "text": "SOH",
+    "zIndex": 67,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-62').addEventListener('click', () => {\n          alert('square-62 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-63",
+    "type": "square",
+    "x": 650,
+    "y": 220,
+    "width": 30,
+    "height": 20,
+    "text": "SOC",
+    "zIndex": 68,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-63').addEventListener('click', () => {\n          alert('square-63 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-64",
+    "type": "square",
+    "x": 650,
+    "y": 190,
+    "width": 80,
+    "height": 20,
+    "text": "배터리 전류",
+    "zIndex": 69,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-64').addEventListener('click', () => {\n          alert('square-64 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-69",
+    "type": "square",
+    "x": 800,
+    "y": 160,
+    "width": 50,
+    "height": 20,
+    "text": "true",
+    "zIndex": 70,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(0, 188, 212)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-69').addEventListener('click', () => {\n          alert('square-69 clicked');\n        });\n      ",
+    "dataID": "bat1volt"
+  },
+  {
+    "id": "square-70",
+    "type": "square",
+    "x": 800,
+    "y": 250,
+    "width": 50,
+    "height": 20,
+    "text": "11",
+    "zIndex": 71,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(0, 188, 212)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-70').addEventListener('click', () => {\n          alert('square-70 clicked');\n        });\n      ",
+    "dataID": "bat1soh"
+  },
+  {
+    "id": "square-71",
+    "type": "square",
+    "x": 800,
+    "y": 220,
+    "width": 50,
+    "height": 20,
+    "text": "52",
+    "zIndex": 72,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(0, 188, 212)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-71').addEventListener('click', () => {\n          alert('square-71 clicked');\n        });\n      ",
+    "dataID": "bat1soc"
+  },
+  {
+    "id": "square-72",
+    "type": "square",
+    "x": 800,
+    "y": 190,
+    "width": 50,
+    "height": 20,
+    "text": "626",
+    "zIndex": 73,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(0, 188, 212)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-72').addEventListener('click', () => {\n          alert('square-72 clicked');\n        });\n      ",
+    "dataID": "bat1curr"
+  },
+  {
+    "id": "square-73",
+    "type": "square",
+    "x": 850,
+    "y": 250,
+    "width": 15,
+    "height": 20,
+    "text": "%",
+    "zIndex": 74,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-73').addEventListener('click', () => {\n          alert('square-73 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-74",
+    "type": "square",
+    "x": 850,
+    "y": 220,
+    "width": 15,
+    "height": 20,
+    "text": "%",
+    "zIndex": 75,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-74').addEventListener('click', () => {\n          alert('square-74 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-75",
+    "type": "square",
+    "x": 850,
+    "y": 190,
+    "width": 15,
+    "height": 20,
+    "text": "A",
+    "zIndex": 76,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-75').addEventListener('click', () => {\n          alert('square-75 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-76",
+    "type": "square",
+    "x": 850,
+    "y": 160,
+    "width": 15,
+    "height": 20,
+    "text": "V",
+    "zIndex": 77,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-76').addEventListener('click', () => {\n          alert('square-76 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-78",
+    "type": "square",
+    "x": 90,
+    "y": 415,
+    "width": 310,
+    "height": 50,
+    "text": "________________________________________________",
+    "zIndex": 78,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 165, 0)"
+    },
+    "js": "\n        document.getElementById('square-78').addEventListener('click', () => {\n          alert('square-78 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-77",
+    "type": "square",
+    "x": 90,
+    "y": 420,
+    "width": 165,
+    "height": 20,
+    "text": "PCS#1 운전모드 설정",
+    "zIndex": 79,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-77').addEventListener('click', () => {\n          alert('square-77 clicked');\n        });\n      "
+  },
+  {
+    "id": "button-2",
+    "type": "button",
+    "x": 250,
+    "y": 450,
+    "width": 155,
+    "height": 65,
+    "text": "방전",
+    "zIndex": 80,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px",
+      "fontSize": 20
+    },
+    "js": "\n      document.getElementById('button-2').addEventListener('click', () => {\n        alert('버튼이 클릭되었습니다.');\n      });\n    ",
+    "dataID": "pcs1mode",
+    "command": {
+      "type": "set",
+      "value": "0"
+    },
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "방전",
+        "backgroundColor": "orange",
+        "color": "black"
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "방전",
+        "backgroundColor": "",
+        "color": ""
+      }
+    ]
+  },
+  {
+    "id": "button-1",
+    "type": "button",
+    "x": 90,
+    "y": 450,
+    "width": 155,
+    "height": 65,
+    "text": "충전",
+    "zIndex": 81,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px",
+      "fontSize": 20
+    },
+    "js": "\n      document.getElementById('button-1').addEventListener('click', () => {\n        alert('버튼이 클릭되었습니다.');\n      });\n    ",
+    "dataID": "pcs1mode",
+    "command": {
+      "type": "set",
+      "value": "1"
+    },
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "충전",
+        "backgroundColor": "",
+        "color": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "충전",
+        "backgroundColor": "orange",
+        "color": "black"
+      }
+    ]
+  },
+  {
+    "id": "square-80",
+    "type": "square",
+    "x": 90,
+    "y": 525,
+    "width": 310,
+    "height": 50,
+    "text": "_______________________________________________________________",
+    "zIndex": 82,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 165, 0)"
+    },
+    "js": "\n        document.getElementById('square-80').addEventListener('click', () => {\n          alert('square-80 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-79",
+    "type": "square",
+    "x": 90,
+    "y": 530,
+    "width": 95,
+    "height": 20,
+    "text": "PCS#1 제어",
+    "zIndex": 83,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-79').addEventListener('click', () => {\n          alert('square-79 clicked');\n        });\n      "
+  },
+  {
+    "id": "button-3",
+    "type": "button",
+    "x": 90,
+    "y": 560,
+    "width": 80,
+    "height": 40,
+    "text": "START",
+    "zIndex": 84,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "js": "\n      document.getElementById('button-3').addEventListener('click', () => {\n        alert('버튼이 클릭되었습니다.');\n      });\n    ",
+    "dataID": "pcs1start",
+    "command": {
+      "type": "set",
+      "value": "1"
+    },
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "START",
+        "backgroundColor": "",
+        "color": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "START",
+        "backgroundColor": "orange",
+        "color": ""
+      }
+    ]
+  },
+  {
+    "id": "button-4",
+    "type": "button",
+    "x": 175,
+    "y": 560,
+    "width": 80,
+    "height": 40,
+    "text": "STOP",
+    "zIndex": 85,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "js": "\n      document.getElementById('button-4').addEventListener('click', () => {\n        alert('버튼이 클릭되었습니다.');\n      });\n    ",
+    "dataID": "pcs1start",
+    "command": {
+      "type": "set",
+      "value": "0"
+    },
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "STOP",
+        "backgroundColor": "orange",
+        "color": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "STOP",
+        "backgroundColor": "",
+        "color": ""
+      }
+    ]
+  },
+  {
+    "id": "square-82",
+    "type": "square",
+    "x": 650,
+    "y": 420,
+    "width": 220,
+    "height": 50,
+    "text": "___________________________________",
+    "zIndex": 86,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(128, 128, 128)"
+    },
+    "js": "\n        document.getElementById('square-82').addEventListener('click', () => {\n          alert('square-82 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-81",
+    "type": "square",
+    "x": 650,
+    "y": 420,
+    "width": 60,
+    "height": 20,
+    "text": "지령값 :",
+    "zIndex": 87,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-81').addEventListener('click', () => {\n          alert('square-81 clicked');\n        });\n      "
+  },
+  {
+    "id": "input-1",
+    "type": "input",
+    "x": 720,
+    "y": 415,
+    "width": 110,
+    "height": 30,
+    "zIndex": 88,
+    "style": {
+      "outline": "none"
+    },
+    "js": "\n      document.getElementById('input-1-btn')?.addEventListener('click', () => {\n        const val = (document.getElementById('input-1-field'))?.value;\n        console.log('입력된 값:', val);\n        // 서버 통신 부분은 웹 포팅 시 활성화\n        // window.electronAPI.sendValue(val);\n      });\n    ",
+    "value": "",
+    "dataID": "pcs1setting"
+  },
+  {
+    "id": "square-83",
+    "type": "square",
+    "x": 835,
+    "y": 420,
+    "width": 25,
+    "height": 20,
+    "text": "kW",
+    "zIndex": 89,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-83').addEventListener('click', () => {\n          alert('square-83 clicked');\n        });\n      "
+  },
+  {
+    "id": "image-2",
+    "type": "image",
+    "x": 1130,
+    "y": 10,
+    "width": 130,
+    "height": 40,
+    "zIndex": 91,
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALIAAAAmCAYAAABgfcE9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo0NkREREVDMUU4RTVFNzExQTEzNzg2MzM3M0JCREJDQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3NzExNjQ4NUZBN0IxMUU3OEIwQkM2REUzOTVDODE1OCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3NzExNjQ4NEZBN0IxMUU3OEIwQkM2REUzOTVDODE1OCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjE5NjM5QzkzOEZGOUU3MTE4MDUwOEIxQzc5NTY5OUJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjQ2RERERUMxRThFNUU3MTFBMTM3ODYzMzczQkJEQkNBIi8+IDwvcmRmOkRlc2NyaXB0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",
+    "style": {
+      "objectFit": "contain"
+    },
+    "js": "\n            document.getElementById('image-2').addEventListener('click', () => {\n              console.log('image-2 이미지 클릭됨. 경로: C:\\Users\\user00\\Downloads\\logo.png');\n            });\n          "
+  },
+  {
+    "id": "square-84",
+    "type": "square",
+    "x": 650,
+    "y": 380,
+    "width": 100,
+    "height": 30,
+    "text": "설정 지령값 :",
+    "zIndex": 92,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "fontSize": 18,
+      "color": "rgb(255, 255, 255)"
+    },
+    "js": "\n        document.getElementById('square-84').addEventListener('click', () => {\n          alert('square-84 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-85",
+    "type": "square",
+    "x": 835,
+    "y": 385,
+    "width": 25,
+    "height": 20,
+    "text": "kW",
+    "zIndex": 93,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-85').addEventListener('click', () => {\n          alert('square-85 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-86",
+    "type": "square",
+    "x": 750,
+    "y": 385,
+    "width": 80,
+    "height": 20,
+    "text": "2500",
+    "zIndex": 94,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)",
+      "color": "rgb(0, 188, 212)",
+      "fontSize": 18
+    },
+    "js": "\n        document.getElementById('square-86').addEventListener('click', () => {\n          alert('square-86 clicked');\n        });\n      ",
+    "dataID": "pcs1setting"
+  },
+  {
+    "id": "square-87",
+    "type": "square",
+    "x": 1085,
+    "y": 170,
+    "width": 5,
+    "height": 30,
+    "text": "",
+    "zIndex": 95,
+    "style": {
+      "backgroundColor": "rgb(253, 211, 1)"
+    },
+    "js": "\n        document.getElementById('square-87').addEventListener('click', () => {\n          alert('square-87 clicked');\n        });\n      "
+  },
+  {
+    "id": "square-88",
+    "type": "square",
+    "x": 990,
+    "y": 165,
+    "width": 200,
+    "height": 5,
+    "text": "",
+    "zIndex": 96,
+    "style": {
+      "backgroundColor": "rgb(253, 211, 1)"
+    },
+    "js": "\n        document.getElementById('square-88').addEventListener('click', () => {\n          alert('square-88 clicked');\n        });\n      "
+  },
+  {
+    "id": "battery-1",
+    "type": "battery",
+    "x": 1045,
+    "y": 525,
+    "width": 50,
+    "height": 60,
+    "zIndex": 97,
+    "style": {},
+    "dataID": "bat1soc"
+  },
+  {
+    "id": "image-3",
+    "type": "image",
+    "x": 1075,
+    "y": 200,
+    "width": 50,
+    "height": 50,
+    "zIndex": 98,
+    "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MSIgaGVpZ2h0PSI3NyIgdmlld0JveD0iMCAwIDUxIDc3Ij4KPGltYWdlIGhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBRE1BQUFCTkNBWUFBQUFMaVZ5YkFBQUdBRWxFUVZSNG5PMmJUMHdUV1J6SHYyL1V4QXNlVmp4NDRPS0JRa3pZeEtWdWhwSUlCd1dqUWdPdUNtckZmMkZWdWdVVXBhN2lBcTFyUUEvS3Fpc2EvN0JhakVDTnlFSHcwR3FpSEhSTlZtcTBIUERneFdnNEdDOGF3L3oyTUowNnhVSm5odjU1TVh4UGZlMzd6ZncrOC91OTMzdnowc2NBd08vekVVSWFIeC9INk9nb2dxT2pNR1ZtSWpNekV3c1hMbFIrUmtGaElRT25tcXQ4ZVBUb0VYNC9jbVJLUjkwdUYxa3NsdVI0TlJOWlMwdEozUlpGa2FxcXFrZ1VSWnF1SDIrS2lJVGRicWZ5c3JKdk92VjV2ZWpvNk9BMnZSU0ZIZnlucTRzeU1qS203UGptelJ0c3RkbTRCaElBT1NMVGdRQkFSa1lHN0hZNy8ybW1ybWF4eEhNMUV5WVA4bGpTMnorWkVrd21reTREcGYvUHk1ZHpCeVVFZzBGZEJrcC9xOVdLeW9vS3JvRG1EZzhQTXdDYW5RcjFoOGxrZ2lpS0dCOGZwOEdoSVM3R2tRREk4NGdXcWZ2OUVGcmlPSjFPNU9ibWNoRWhRL1BNNUtYTng0OGZzYTZrSk9YUkVaUVBXMjAyTmxXRStyemVNSWkxdERSeWpVYUV0TFEwWExsOE9lWFJpZm8wUlZFa2s4bUVZREFZSGlPQURHSzMyekZuenB5b0YzdjY5Q2tPTkRTa0xFS2FieHhyMVN4SkVnUkJ3T0RnSVA0OGNTSWxRRkZ2YWphYmFlblNwVkhmWjdUSTQvR2c4K0xGcEFNSjBiNTg4dVFKa3lRSm9pZ2lQVDFkOTBVckt5dFJYbDZlOURFVUZRWUF1cnE2MkozK2ZoQ1I5bHdFQUNiM3R0ZlVvS0NnSUtsQU1mMTB1VnlVYi9BTlU1SWtPR3ByTVRJeWtwU1UwM1NUOCtmT1VYWjJ0cjRyRXdHTTRmMzc5L2hsd3daK1lBQ2c1OVl0V3JSb2thR2J2SHIxQ3IvdTJaTndvQ25IekdRMXQ3UmdZbUpDYnBER29SQWFQMWxaV1hDNzNRa2ZQNXBoQW9FQWEybHRsUnRNNDBNbUFtTU1SQVJMWGg3cTYrc1RDcVFaQmdBZVBIakF6blIwZlAxQ0E1UzZHcGFzVzRkdDI3WWxERWdYREFCNHZWNTI0OFlOQUFCSmtqWWpGZlQycWlxc1hiczJJVUM2WVFEZzRxVkw3TjY5ZTJCYTAyMlNEdXpmbjVEWDd4bFZtUGEyTmpLYnpicHZTQUErZmZxRTR0V3I0MXJoREVWR1VjUEJnMnhzYkV5WERVRUdtajkvUHE1ZnZ4N1g2TVRseWZUZnVVTUxGaXpRWmFOQS9mZjhPUndPUjF6OG1GRmtGRFUzTit1MlVkTHR4NXdjSEd0cWlrdUU0Z0x6NzdObjdQang0K0cyVnM4WTVOSmRXRmlJbW4zN1pnd1VGeGdBR0xwL24xMjRjQUdBenR3TlZjVDE2OWVqWXRPbUdRSEZEUVlBdW0vZVpMMjl2UURrSjY1RjZuMnU2dXBxckZxNTBqQlFYR0VBNEsrelo1blA1d3N2WTdSSUhjbkRody9qcDJYTERBRWxiQ1Y3NXZScHlzbkprZE5JNjhJMHBBOGZQcURVYXRYdFcwS1g1ZDBlRHkxZXZOaVE3ZGpZR0hiczNLbkx2N2lubVZvVmxaWHM4K2ZQaG15WExGbUM5clkyWFNGTktBd0EvS0dhZy9SNEpra1N6R1l6R2c4ZDBteVdjSmpoNFdGMjh0UXBBSkdWSzVZRVFRQVJvYmk0R0x0MzdkSmtsbkFZQUJnWUdHQlhybDRGRUJxa1dxdWNJTHUzZWZObWxKV1Z4VFJLQ2d3QVhMdDJqZlhmdlNzM0dOTldlVlRRdjludFdMRml4YlJBU2Q5MWRMdmRaTW5MQzkxZFk5a083ZlJNVEV6QVVWdUxRQ0FRMWUrVTdBbi9mZjQ4WldWbDZScERpdDY5ZTRjTkd6ZnlBd01BdlQwOWxKNmViZ2pvNWN1WDJMTjM3emUrSjIzTVRGWnpTd3NrU2RJTkFnRFoyZGx3dGJaK1k1b3ltSkdSa2E5YlZ6cEZSTWpQejBkZFhWMEVVTXBnQU1Edjk3TU85ZGFWUmlrbHU3U2tCRGFiTFF5VVVoZ0E2UE42bWNmajBXZWtxb0E3dG0vSG1qVnJDRWhoQVpnc1oyTWpGUlVWeVEyTkpWdGRQQnFkVG41Z0FPQmtlenZsNXVZYXNuMzgrSEhxMDB5dEF3ME43UFhyMTNKRDV6dlF2SG56K0lxTW9ydjkvWlNXbGpadEg4YVluR0pFK1BMbEMrcnE2L21LaktLSXJhc3B0b0NKQ0NEQzI3ZHY0WEE0RUFnRURHNFdKMEZGcTFhUjArbU0vbU5vcmZiaXhRdnNxNmtKTTNBWkdRQVlIQnBpbloyZGtWOHF6NTR4UEh6NE1BSUU0QmdHQUR6ZDNheXZydy9BMTdRQ2dOdTNiNlBwMkRGdXMycGFOUjA5U242ZmovdytIMjNac2lYbC85R1oxYXkrRituNnZ4bnZtajBMd0t0bXp3SWt6cDJaYWZZc0FLOHlmQmFBUndsNjV4R2U1eDNEWndGNDFQYzN6d0RhendKd3IrL2xuQ1lBZWRKMHUxelRPdXAydVVqUDVKb0toWThEV3l3VytIMCtpblcybVdmOUQyNGlZNVVkOWx1SkFBQUFBRWxGVGtTdVFtQ0MiIHdpZHRoPSI1MSIgaGVpZ2h0PSI3NyIvPgo8L3N2Zz4=",
+    "style": {
+      "objectFit": "contain"
+    },
+    "js": "\n            document.getElementById('image-3').addEventListener('click', () => {\n              console.log('image-3 이미지 클릭됨. 경로: C:\\Users\\user00\\Downloads\\off_right.svg');\n            });\n          ",
+    "dataID": "relay1",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": "none"
+      }
+    ]
+  },
+  {
+    "id": "image-4",
+    "type": "image",
+    "x": 1065,
+    "y": 390,
+    "width": 50,
+    "height": 50,
+    "zIndex": 109,
+    "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMyIgaGVpZ2h0PSI3MSIgdmlld0JveD0iMCAwIDIzIDcxIj4KPGltYWdlIGhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQmNBQUFCSENBWUFBQURzcE54WEFBQUZ0MGxFUVZSNG5KMllXV3hVWlJTQXZ6UFR2ZXhiS2FXZEF0MHBMYVZzWVZGUVE0d0VTZU9MaEJBSXZLRmlKSW9QUHBpNEpDcnhRWU1oUnFPSkdrUWZKS0JFSVFRdEVTSUJRbW5GTHRBcFhXZ1JrRVVFMmxsNmZQaGhwbVZtN244N0oybHllKytaNzU3LzNQT2ZjLzRqUEpEWE5xUHZ2U0lBM0xnTlRXMXcranhVbDhMY01wZzAzdWg5OURWcy8wQUZGNUx5OEdKd0VNNDJ3MXU3bFFPL0V2UGpGUXZSZDdjSjRVRTNXQ01SU0VVUk9qZ0lMWDVrVGpGYVZRcnpLb1NtTnFXaEJScGFqRzd0YlBUTStkaVh1NUkzdDRwZU9TWWFib3IrM1Q0cHV2TlYwWkd5aGxtdzZ3M1JUWFdRbVI2ckdBakNEMGRnL1E1My9nYndQTHpZOEN5NlptVjhNRUJhS2p5eENGN2U0SDRGRVhodEJVelBjVmFlTWdFV1ZMcEZENEg3cHJsYmJlNWttRmVPSytzajhIdjk3cXpwSDREK0FDeXV0cjhnQXUvcWMrZktLOWZocjNaazlXUENvaXJuRjBUZzlhZmd6NHZPWUg4UEhENWhybjNUb0NEWFdUOEMvK1YzWk05QitQZS8rSXAzNzhQK28vRGR6eW9iMTRvdXFJUzhLYzd3bEtIL3ZQKzVpcjliOVBVdGtKOXJ3aThZaE91M1lPY1g4T1UrbGFVMTZLWTZ5TXVCL0tuTzhJU3ljQTY2NVRuUkpUVlJ2NjVhZ2g3NlREVFVLTnJmSUhwZ2w3UFBFOFpmVlFuYTJJWXNuSU5PSEFjMTViQnhyVkJVOEVCQm9ia0RLdGNtM3JFcDhXNld6MExmZmtrUUQrckxOUjl2ZEhhc1dibVRvR3dHMnRJUjM4aTQ4T1oycE5pSGxzNUlaSk9Sck13NEx4MGlua1FQK2dkQUxhRWZDc04waDQrYUVINzVtak1ZVElIeE9jUjZRbmg3RjlhcWs1b0NKWVZKd0M5MEt2MER6dkMwVkNqMkpVNTRDZUhOZmhmSlRHQldmdUxIQ2VGSFQ5cnJwQUJUSnlZQkIrTlRteWd3cHpqK1RuV0VYN3RwaDRmQ01Lc2cvak5IdUwvYklUODhFQkdpS1dFazhKWU9ZNW1UWktSQitjd2s0STJ0eWtEQUdlNzF3dXhaOGRkbnRkeTJrUlNZTVQzK00wZjR5VVlrUGMwWkxrQjJWaEp3TUpYZUp1RXd6QzJMRFVjcnZLdlBIakhoTUpUNFl1OWI0ZTFkV0J1VWpBeWx1REFKK0xsV0pSQnd4cWVuQ3BYRnNldXp3czlmaE5DZ3ZkV0xGK3RXK01VdTdIN1IrRDJNRmQ3UWduaHNXZ0x4ZEt4d01BY3dtNFREc0x4MitCcGR3YnV1MkhYU1VwV1pqK3hVVi9EV1Mwb283T3o0ekhTSktYbXU0TTN0RUFvN1I0elhDMldQUkl3cnVML2J0QkZPSWdLRjA1S0FYK3FGRks5ZGIrem9KT0JuemlPQmtEM2NnMEhUTzQ0SUR0QjMxWjdBTXRLSG56WmN3N3RkaE9Pb0xNV1hsd1Q4UXFkYUc5T3NES0VvUDdvKzEzQi9qL0dwazZTbW1sNSt4UER1UHZzSDlYb2daMGdINWhwKzlRYUlSVnN4bTJuRThMdjM0ZFlkaS9VSzZXblJldW9hZm44QXJsNTNEa2NSR0RzcW10dGR3NXZha001ZWRUUmR4T3pTaDBNSzEzQ0Fqc3NRc3VTWXJJem9SaG9SdlBlcVBZRmxwRVBPcENUZ2YvOWpsdTRrWGcrTXlYWUJyNjBZN3VHT3k5RGU3WHlFREErYXpRUnhEcmx6eTlEVmp3c2xoV1lzMVhjTjlYZkR3V05LL1NuazQyOVV0MitVaEQyNVlBNitDeXJSWWZDbmw2UGIxZ3ZMNWtGMlp2UitJQWpMYW9YZGUxVS8vUjdKbTRKdVhRZmp4OFRDUFI2WVBNNk1xeUx3NmxMMHhYWENrNHRqQzBOYUtpeWJCMTZQMEhORmRjOUJaY2xjWWVXaU9KWUxUQmdMZVRrUzlmbXFwZkQ0Z3NRVngrdUIrWlZROTVUUTBvRzBkVUl3RkY4M085dmttQWk4eEdkaTFFa3kwcUxuVG45UDdGUnBJR2pPcmwyOTBPeFg0NWFxVXJSZ0JLTy9wVFZvYXdmY3ZHTVNsYjhIR3BxaHFVMXB2UVNIanBzc2tRTFEySXAwOWFyYUN4bjBYWVBqWnhGUWZ2ek5XVGZpbGd1ZGNOOXlIQjhJR0N2ZFNnUisrQVRVbjA1OE5Bd1BtbUg5dmlQdWg5R1JVR3hvUVQ3NVZ0WHJFWmJXbUNuUVF3a0U0V1FqN042cm5HaHdQenVQVWF3cFI5ZXNFSW9MWWZvVTZMdHVPcTZmNnBVL3ppVTVsSC8rR2ZUREhhTFZwZEY4TXI5eWVHNTVaNXZvQyt2Y0RZbGhpRnZ5cDhMbU9saGNMVnpzUk51N29lMlNtU1VXRjhETWZKaGRCRi90Rit5bCtoRTR3SmhSc0xnSzVsZVltbm5uSG96S05JZFlOK09SUitWL2lMVGlFNDhXRzNjQUFBQUFTVVZPUks1Q1lJST0iIHdpZHRoPSIyMyIgaGVpZ2h0PSI3MSIvPgo8L3N2Zz4=",
+    "style": {
+      "objectFit": "contain"
+    },
+    "js": "\n            document.getElementById('image-4').addEventListener('click', () => {\n              console.log('image-4 이미지 클릭됨. 경로: C:\\Users\\user00\\Downloads\\on_right.svg');\n            });\n          ",
+    "dataID": "relay2",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": "none"
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": ""
+      }
+    ]
+  },
+  {
+    "id": "square-89",
+    "type": "square",
+    "x": 1085,
+    "y": 340,
+    "width": 5,
+    "height": 50,
+    "text": "",
+    "zIndex": 100,
+    "style": {
+      "backgroundColor": "rgb(253, 211, 1)"
+    },
+    "js": "\n        document.getElementById('square-89').addEventListener('click', () => {\n          alert('square-89 clicked');\n        });\n      ",
+    "dataID": "bar2"
+  },
+  {
+    "id": "square-91",
+    "type": "square",
+    "x": 1085,
+    "y": 440,
+    "width": 5,
+    "height": 80,
+    "text": "",
+    "zIndex": 102,
+    "style": {
+      "backgroundColor": "rgb(253, 211, 1)"
+    },
+    "js": "\n        document.getElementById('square-91').addEventListener('click', () => {\n          alert('square-91 clicked');\n        });\n      ",
+    "dataID": "relay2",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "",
+        "backgroundColor": "rgb(192,191,191)",
+        "color": "",
+        "display": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "",
+        "backgroundColor": "rgb(253,211,1)",
+        "color": "",
+        "display": ""
+      }
+    ]
+  },
+  {
+    "id": "square-92",
+    "type": "square",
+    "x": 1085,
+    "y": 250,
+    "width": 5,
+    "height": 30,
+    "text": "",
+    "zIndex": 104,
+    "style": {
+      "backgroundColor": "rgb(253, 211, 1)"
+    },
+    "js": "\n        document.getElementById('square-92').addEventListener('click', () => {\n          alert('square-92 clicked');\n        });\n      ",
+    "dataID": "relay1",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "",
+        "backgroundColor": "rgb(192,191,191)",
+        "color": "",
+        "display": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "",
+        "backgroundColor": "rgb(253,211,1)",
+        "color": "",
+        "display": ""
+      }
+    ]
+  },
+  {
+    "id": "image-5",
+    "type": "image",
+    "x": 1075,
+    "y": 390,
+    "width": 50,
+    "height": 50,
+    "zIndex": 105,
+    "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MSIgaGVpZ2h0PSI3NyIgdmlld0JveD0iMCAwIDUxIDc3Ij4KPGltYWdlIGhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBRE1BQUFCTkNBWUFBQUFMaVZ5YkFBQUdBRWxFUVZSNG5PMmJUMHdUV1J6SHYyL1V4QXNlVmp4NDRPS0JRa3pZeEtWdWhwSUlCd1dqUWdPdUNtckZmMkZWdWdVVXBhN2lBcTFyUUEvS3Fpc2EvN0JhakVDTnlFSHcwR3FpSEhSTlZtcTBIUERneFdnNEdDOGF3L3oyTUowNnhVSm5odjU1TVh4UGZlMzd6ZncrOC91OTMzdnowc2NBd08vekVVSWFIeC9INk9nb2dxT2pNR1ZtSWpNekV3c1hMbFIrUmtGaElRT25tcXQ4ZVBUb0VYNC9jbVJLUjkwdUYxa3NsdVI0TlJOWlMwdEozUlpGa2FxcXFrZ1VSWnF1SDIrS2lJVGRicWZ5c3JKdk92VjV2ZWpvNk9BMnZSU0ZIZnlucTRzeU1qS203UGptelJ0c3RkbTRCaElBT1NMVGdRQkFSa1lHN0hZNy8ybW1ybWF4eEhNMUV5WVA4bGpTMnorWkVrd21reTREcGYvUHk1ZHpCeVVFZzBGZEJrcC9xOVdLeW9vS3JvRG1EZzhQTXdDYW5RcjFoOGxrZ2lpS0dCOGZwOEdoSVM3R2tRREk4NGdXcWZ2OUVGcmlPSjFPNU9ibWNoRWhRL1BNNUtYTng0OGZzYTZrSk9YUkVaUVBXMjAyTmxXRStyemVNSWkxdERSeWpVYUV0TFEwWExsOE9lWFJpZm8wUlZFa2s4bUVZREFZSGlPQURHSzMyekZuenB5b0YzdjY5Q2tPTkRTa0xFS2FieHhyMVN4SkVnUkJ3T0RnSVA0OGNTSWxRRkZ2YWphYmFlblNwVkhmWjdUSTQvR2c4K0xGcEFNSjBiNTg4dVFKa3lRSm9pZ2lQVDFkOTBVckt5dFJYbDZlOURFVUZRWUF1cnE2MkozK2ZoQ1I5bHdFQUNiM3R0ZlVvS0NnSUtsQU1mMTB1VnlVYi9BTlU1SWtPR3ByTVRJeWtwU1UwM1NUOCtmT1VYWjJ0cjRyRXdHTTRmMzc5L2hsd3daK1lBQ2c1OVl0V3JSb2thR2J2SHIxQ3IvdTJaTndvQ25IekdRMXQ3UmdZbUpDYnBER29SQWFQMWxaV1hDNzNRa2ZQNXBoQW9FQWEybHRsUnRNNDBNbUFtTU1SQVJMWGg3cTYrc1RDcVFaQmdBZVBIakF6blIwZlAxQ0E1UzZHcGFzVzRkdDI3WWxERWdYREFCNHZWNTI0OFlOQUFCSmtqWWpGZlQycWlxc1hiczJJVUM2WVFEZzRxVkw3TjY5ZTJCYTAyMlNEdXpmbjVEWDd4bFZtUGEyTmpLYnpicHZTQUErZmZxRTR0V3I0MXJoREVWR1VjUEJnMnhzYkV5WERVRUdtajkvUHE1ZnZ4N1g2TVRseWZUZnVVTUxGaXpRWmFOQS9mZjhPUndPUjF6OG1GRmtGRFUzTit1MlVkTHR4NXdjSEd0cWlrdUU0Z0x6NzdObjdQang0K0cyVnM4WTVOSmRXRmlJbW4zN1pnd1VGeGdBR0xwL24xMjRjQUdBenR3TlZjVDE2OWVqWXRPbUdRSEZEUVlBdW0vZVpMMjl2UURrSjY1RjZuMnU2dXBxckZxNTBqQlFYR0VBNEsrelo1blA1d3N2WTdSSUhjbkRody9qcDJYTERBRWxiQ1Y3NXZScHlzbkprZE5JNjhJMHBBOGZQcURVYXRYdFcwS1g1ZDBlRHkxZXZOaVE3ZGpZR0hiczNLbkx2N2lubVZvVmxaWHM4K2ZQaG15WExGbUM5clkyWFNGTktBd0EvS0dhZy9SNEpra1N6R1l6R2c4ZDBteVdjSmpoNFdGMjh0UXBBSkdWSzVZRVFRQVJvYmk0R0x0MzdkSmtsbkFZQUJnWUdHQlhybDRGRUJxa1dxdWNJTHUzZWZObWxKV1Z4VFJLQ2d3QVhMdDJqZlhmdlNzM0dOTldlVlRRdjludFdMRml4YlJBU2Q5MWRMdmRaTW5MQzkxZFk5a083ZlJNVEV6QVVWdUxRQ0FRMWUrVTdBbi9mZjQ4WldWbDZScERpdDY5ZTRjTkd6ZnlBd01BdlQwOWxKNmViZ2pvNWN1WDJMTjM3emUrSjIzTVRGWnpTd3NrU2RJTkFnRFoyZGx3dGJaK1k1b3ltSkdSa2E5YlZ6cEZSTWpQejBkZFhWMEVVTXBnQU1Edjk3TU85ZGFWUmlrbHU3U2tCRGFiTFF5VVVoZ0E2UE42bWNmajBXZWtxb0E3dG0vSG1qVnJDRWhoQVpnc1oyTWpGUlVWeVEyTkpWdGRQQnFkVG41Z0FPQmtlenZsNXVZYXNuMzgrSEhxMDB5dEF3ME43UFhyMTNKRDV6dlF2SG56K0lxTW9ydjkvWlNXbGpadEg4YVluR0pFK1BMbEMrcnE2L21LaktLSXJhc3B0b0NKQ0NEQzI3ZHY0WEE0RUFnRURHNFdKMEZGcTFhUjArbU0vbU5vcmZiaXhRdnNxNmtKTTNBWkdRQVlIQnBpbloyZGtWOHF6NTR4UEh6NE1BSUU0QmdHQUR6ZDNheXZydy9BMTdRQ2dOdTNiNlBwMkRGdXMycGFOUjA5U242ZmovdytIMjNac2lYbC85R1oxYXkrRituNnZ4bnZtajBMd0t0bXp3SWt6cDJaYWZZc0FLOHlmQmFBUndsNjV4R2U1eDNEWndGNDFQYzN6d0RhendKd3IrL2xuQ1lBZWRKMHUxelRPdXAydVVqUDVKb0toWThEV3l3VytIMCtpblcybVdmOUQyNGlZNVVkOWx1SkFBQUFBRWxGVGtTdVFtQ0MiIHdpZHRoPSI1MSIgaGVpZ2h0PSI3NyIvPgo8L3N2Zz4=",
+    "style": {
+      "objectFit": "contain"
+    },
+    "js": "\n            document.getElementById('image-5').addEventListener('click', () => {\n              console.log('image-5 이미지 클릭됨. 경로: C:\\Users\\user00\\Downloads\\off_right.svg');\n            });\n          ",
+    "dataID": "relay2",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "",
+        "backgroundColor": "",
+        "color": "",
+        "display": "none"
+      }
+    ]
+  },
+  {
+    "id": "button-5",
+    "type": "button",
+    "x": 1135,
+    "y": 400,
+    "width": 50,
+    "height": 30,
+    "text": "ON",
+    "zIndex": 107,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "js": "\n      document.getElementById('button-5').addEventListener('click', () => {\n        alert('버튼이 클릭되었습니다.');\n      });\n    ",
+    "dataID": "relay2",
+    "command": {
+      "type": "set",
+      "value": "1"
+    },
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "ON",
+        "backgroundColor": "",
+        "color": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "ON",
+        "backgroundColor": "orange",
+        "color": ""
+      }
+    ]
+  },
+  {
+    "id": "button-6",
+    "type": "button",
+    "x": 1135,
+    "y": 205,
+    "width": 50,
+    "height": 30,
+    "text": "ON",
+    "zIndex": 106,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "js": "\n      document.getElementById('button-6').addEventListener('click', () => {\n        alert('버튼이 클릭되었습니다.');\n      });\n    ",
+    "dataID": "relay1",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "ON",
+        "backgroundColor": "",
+        "color": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "ON",
+        "backgroundColor": "orange",
+        "color": ""
+      }
+    ],
+    "command": {
+      "type": "set",
+      "value": "1"
+    }
+  },
+  {
+    "id": "button-7",
+    "type": "button",
+    "x": 1185,
+    "y": 205,
+    "width": 50,
+    "height": 30,
+    "text": "OFF",
+    "zIndex": 107,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "js": "\n      document.getElementById('button-7').addEventListener('click', () => {\n        alert('버튼이 클릭되었습니다.');\n      });\n    ",
+    "dataID": "relay1",
+    "command": {
+      "type": "set",
+      "value": "0"
+    },
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "OFF",
+        "backgroundColor": "orange",
+        "color": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "OFF",
+        "backgroundColor": "",
+        "color": ""
+      }
+    ]
+  },
+  {
+    "id": "button-8",
+    "type": "button",
+    "x": 1185,
+    "y": 400,
+    "width": 50,
+    "height": 30,
+    "text": "OFF",
+    "zIndex": 108,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "js": "\n      document.getElementById('button-8').addEventListener('click', () => {\n        alert('버튼이 클릭되었습니다.');\n      });\n    ",
+    "dataID": "relay2",
+    "command": {
+      "type": "set",
+      "value": "0"
+    },
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "OFF",
+        "backgroundColor": "orange",
+        "color": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "OFF",
+        "backgroundColor": "",
+        "color": ""
+      }
+    ]
+  },
+  {
+    "id": "image-6",
+    "type": "image",
+    "x": 101,
+    "y": 184,
+    "width": 124,
+    "height": 121,
+    "zIndex": 109,
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABgqSURBVHic7d17sHV3XdjhT0hCwj2E+z1CAYEOBYEGQWgFCpUZVKZeuEgqo7bai3a8TJ3poGidTttxbEUd0U6pBlG8oygoIAyI3BQqeIMgkAhC5RISEhNISNI/1guElxjPWXvts/Y+v+eZWf8w/Pb5njf78jlrrb1WAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbOWXtARjOqdVtq1uvPQjskE9UH6+uWXsQxiEA2LY7Vk+uvrz6kuq+1RmrTgS76VPVu6u3Va+uXlZ9ZNWJAGZ4YvXS6urqOpvNdujtquo3qycEsAceVb2l9d88bbbjtL2pemQAO+hm1U9W17b+m6XNdhy3a6ofr84MFuAcAJZwn+ol1T9cexAYwNurp1bvW3sQ9psAYFMPqV5e3XntQWAgH6r+efWOtQdhfwkANnHf6vVNZ/oDR+uj1WOqd649CPtJADDXHaq3VvdYexAY2IXVw6uPrTwHe+gmaw/AXjql+t/58Ie1nVOdnz/mmOHUtQdgL/3r6rvWHgKopkNxF1V/vPYg7BfVyGHdrrqgOnvtQYDP+kh1/6bLCcOBOATAYf2HfPjDrrlD9e1rD8F+sQeAw7hF9YHqrLUHAb7AxU3n5Vyx9iDsh9PWHoC98tSW+fD/QNNhBGcuw3RY7f7V3TZ8nLOrr6p+YeOJAE7yW212KdNX5HrmcENOqb60elWbvcZ+46gHB46/06vLmv/G9JwccoK/zynVc5v/Ors0e3aBhT2i+W9KP7HCvLDPnt/819vDVpgXOMbOa96b0YerW60wL+yz2zR9tW/Oa+4bVpiXPeRrgBzUfWau+4WmQwfAwV1avXjm2rmvVQYjADiouWf/v27RKWAcc187t110Co4tAcBB3WLmuv+36BQwjg/OXHfLRafg2BIAHNTc58qnF50CxjH3teN9nQPxRAGAAQkAABiQAACAAQkAABiQAACAAQkAABiQAACAAQkAABiQAACAAQkAABiQAACAAQkAABiQAACAAQkAABiQAACAAQkAABiQAACAAQkAABiQAACAAZ229gCwgIdVX1F9UXWrlWfhePtE9b7q5dXbVp4FNiIA2GfnVP+resLKczCeH6peUf2r6qKVZ4FZHAJgXz2weks+/FnPE5uegw9YexCYQwCwj86sXlLdYe1BGN4dq1+vzlh7EDgsAcA++pbqvmsPASfcv/rmtYeAwxIA7KOnrT0AnMRzkr0jANhHD157ADjJP1p7ADgsAcC+uWl1y7WHgJPcqum5CXtDALBvTll7APg7eG6yVwQAAAxIAADAgAQAAAxIAADAgAQAAAzIzYAYxQXVM9Yegr3w89X91h4Ctk0AMIorqreuPQR74Yq1B4Cj4BAAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAzotLUHgCNyRnXvtYdgL5yx9gBwFAQAo3hA9Z61hwDYFQ4BAMCABAAADEgAAMCABAAADEgAAMCABAD75rq1B4C/g+cme0UAsG+uqi5fewg4yeVNz03YGwKAffTnaw8AJ/nTtQeAwxIA7KNfXHsAOInnJHtHALCPfrK6cO0h4IT3Vj+19hBwWAKAfXRl9dTqkrUHYXgfb3ouXrn2IHBYAoB99cfVI6s3rj0Iw/qD6tzqHWsPAnO4GRD77F3Vo6vHVk+uzqnOXnMgjr2Lq/dVL6tet/IssBEBwL67rnrtiQ2AA3IIAAAGJAAAYEACAAAGJAAAYEACAAAGJAAAYEACAAAGJAAAYEACAAAGJAAAYEACAAAGJAAAYEACAAAGJAAAYEACAAAGJAAAYEACAAAGJAAAYEACAAAGdNraA8AC7lI9qTqnOnPdUQ7k16s3H+HPe051iyP8ecfZJ6sLq9+tPrTuKLAZAcA+u131w9V57dferAs72gD499UdjvDnjeCa6vzqu6uLV54FZtmnN024vns0fYh+Y57HHL1Tq2dXb6rutvIsMIs3TvbRqU270e+z9iAM775Nz8VT1x4EDksAsI+eVT1s7SHghEdUz1x7CDgsAcA+Om/tAeAkz1p7ADgsAcA+8tc/u+bhaw8AhyUA2DenV7deewg4yVlNz03YGwKAfeM5y67y3GSveMICwIAEAAAMSAAAwIAEAAAMSAAAwIDcDIhRvKf61rWHOOGdR/zzvqa66RH/zH32/FxmmgEIAEZxWfWqtYdYyevWHmDPXLb2AHAUHAIAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAY0GlrDwBH5CHVdWsPAbAr7AEAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkABg33yqunLtIeAkVzQ9N2FvCAD20QVrDwAnedfaA8BhCQD20a+tPQCcxHOSvSMA2EfPqz6y9hBwwoerH1t7CDgsAcA+uqT6+hxzZX2frL6uunTtQeCwBAD76jXV46r3rj0Iw/rL6sur1649CMzhZkDsszdUD6i+tvqK6pzqzDUH4tj7ZHVh9bLqV6qrVp0GNiAA2HdXVS86sQFwQA4BAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAAAA7Ihzq+tmbC9YY1j2jz0AADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAzpt7QHYGw+s7jpj3R9Wly48CwAbEgAc1HdXz56x7pHVmxeeBYANOQQAAAMSAAAwIAEAAAMSAAAwIAEAAAPyLQAYw02ru1R3ru5Q3ezE/36b6rKmr2peWn2oen91zQozAkdIAMDxc/Pq3Oox1UOqB1X37uCv96urv6r+pOk6Dm+p3lj97eKTAqsRAHA83Kv66hPbo6vTN3is06v7nNi++sT/9qnqddXLql9t2ksAwABeUF03Yzt3jWEHcWb1DdVrm/ffZu52TfXK6lknZmA7zm3ef58XrDEs+8dJgLB/bls9t/rr6oXVY4/459+kekJ1fnVh9Z+qs494BmBDAgD2xy2rH2z60P3+duND907VD1UXVd9X3WLdcYCDEgCw+05p2t3+ruo51a3XHecG3bL6geqC6ryVZwEOQADAbrtn0/H285t3N8ajdtfqZ6vfaToxEdhRAgB2179s+ire49ceZIYnNc3+DWsPAtwwAQC754zqR6ufaTd39x/UrZpOUjy/z114CNgRAgB2y52q11TfvvYgC3pW9erq9msPAnyOAIDdca+mi+186dqDbMEjqzdX9117EGAiAGA3fHH1+up+aw+yRfduumjRcf4dYW8IAFjfPavfre6+9iBH4C7V7zVdZhhYkXsBwLru0nR8/J5b/jmfbrqOwHubLtrzmTsAntZ0st5tqntU96/OabvvDXevXtV0WOBvtvhzgBshAGA9N6te2vb+Gn5H9ZKm6wi8tbrygOvOrB5VfXn15OpLtjDbOdWvV4+rPrmFxwdgIW4GtLyfbfkb9VxSPb96xIJzPqj6b9XFW5j3/AXnPG7cDAjYCQJgWd/Wsh+k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",
+    "style": {
+      "objectFit": "contain"
+    },
+    "display": "block",
+    "dataID": "pcs1start",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "",
+        "backgroundColor": "red",
+        "color": "",
+        "display": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "",
+        "backgroundColor": "green",
+        "color": "",
+        "display": ""
+      }
+    ]
+  },
+  {
+    "id": "image-7",
+    "type": "image",
+    "x": 1061,
+    "y": 280,
+    "width": 52,
+    "height": 57,
+    "zIndex": 109,
+    "src": "data:image/png;base64,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OOGdR/zzvqa66RH/zH32/FxmmgEIAEZxWfWqtYdYyevWHmDPXLb2AHAUHAIAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAY0GlrDwBH5CHVdWsPAbAr7AEAgAEJAAAYkAAAgAEJAAAYkAAAgAEJAAAYkABg33yqunLtIeAkVzQ9N2FvCAD20QVrDwAnedfaA8BhCQD20a+tPQCcxHOSvSMA2EfPqz6y9hBwwoerH1t7CDgsAcA+uqT6+hxzZX2frL6uunTtQeCwBAD76jXV46r3rj0Iw/rL6sur1649CMzhZkDsszdUD6i+tvqK6pzqzDUH4tj7ZHVh9bLqV6qrVp0GNiAA2HdXVS86sQFwQA4BAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAMCABAAADEgAAAAA7Ihzq+tmbC9YY1j2jz0AADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAxIAADAgAQAAAzpt7QHYGw+s7jpj3R9Wly48CwAbEgAc1HdXz56x7pHVmxeeBYANOQQAAAMSAAAwIAEAAAMSAAAwIAEAAAPyLQAYw02ru1R3ru5Q3ezE/36b6rKmr2peWn2oen91zQozAkdIAMDxc/Pq3Oox1UOqB1X37uCv96urv6r+pOk6Dm+p3lj97eKTAqsRAHA83Kv66hPbo6vTN3is06v7nNi++sT/9qnqddXLql9t2ksAwABeUF03Yzt3jWEHcWb1DdVrm/ffZu52TfXK6lknZmA7zm3ef58XrDEs+8dJgLB/bls9t/rr6oXVY4/459+kekJ1fnVh9Z+qs494BmBDAgD2xy2rH2z60P3+duND907VD1UXVd9X3WLdcYCDEgCw+05p2t3+ruo51a3XHecG3bL6geqC6ryVZwEOQADAbrtn0/H285t3N8ajdtfqZ6vfaToxEdhRAgB2179s+ire49ceZIYnNc3+DWsPAtwwAQC754zqR6ufaTd39x/UrZpOUjy/z114CNgRAgB2y52q11TfvvYgC3pW9erq9msPAnyOAIDdca+mi+186dqDbMEjqzdX9117EGAiAGA3fHH1+up+aw+yRfduumjRcf4dYW8IAFjfPavfre6+9iBH4C7V7zVdZhhYkXsBwLru0nR8/J5b/jmfbrqOwHubLtrzmTsAntZ0st5tqntU96/OabvvDXevXtV0WOBvtvhzgBshAGA9N6te2vb+Gn5H9ZKm6wi8tbrygOvOrB5VfXn15OpLtjDbOdWvV4+rPrmFxwdgIW4GtLyfbfkb9VxSPb96xIJzPqj6b9XFW5j3/AXnPG7cDAjYCQJgWd/Wsh+k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",
+    "style": {
+      "objectFit": "contain"
+    },
+    "display": "block",
+    "dataID": "pcs1start",
+    "binding": [
+      {
+        "id": 1,
+        "enum": "0",
+        "text": "",
+        "backgroundColor": "red",
+        "color": "",
+        "display": ""
+      },
+      {
+        "id": 2,
+        "enum": "1",
+        "text": "",
+        "backgroundColor": "green",
+        "color": "",
+        "display": ""
+      }
+    ]
+  }
+]
