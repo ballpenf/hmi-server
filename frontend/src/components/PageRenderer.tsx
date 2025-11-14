@@ -3,6 +3,8 @@ import type { Shape } from "../types/shape";
 import Pcs_on from "./objects/pcs_on";
 import Pcs_off from "./objects/pcs_off";
 import Battery from "./objects/battery";
+import Chart from "./Chart/Chart";
+import DateRangeSearch from "./Chart/DateRangeSearch";
 
 function baseBox(n: Shape): CSSProperties {
   return {
@@ -22,11 +24,15 @@ function NodeView({
   onShapeClick,
   onInputEnter,
   isPending,
+  dateRanges,
+  onDateRangeChange,
 }: {
   node: Shape;
   onShapeClick?: (shape: Shape) => void | Promise<void>;
   onInputEnter?: (shape: Shape, text: string) => void | Promise<void>;
   isPending: boolean;
+  dateRanges: Record<string, { start: string; end: string }>;
+  onDateRangeChange?: (chartId: string, start: string, end: string) => void;
 }) {
   const [draft, setDraft] = useState<Record<string, string>>({});
 
@@ -68,10 +74,9 @@ function NodeView({
             ...styleMerged,
           }}
         >
-          {/* {node.text ?? null} */}
           {node.id === "square-89" ||
-          node.id === "square-91" ||
-          node.id === "square-92"
+            node.id === "square-91" ||
+            node.id === "square-92"
             ? null
             : node.text ?? null}
         </div>
@@ -134,7 +139,6 @@ function NodeView({
               const text = draft[node.id] ?? e.currentTarget.value;
               onInputEnter?.(node, text);
 
-              // commit 후 draft에서 해당 입력 제거
               setDraft((d) => {
                 const rest = { ...d };
                 delete rest[node.id];
@@ -198,6 +202,30 @@ function NodeView({
           value={Number(node.value ?? 0)}
         />
       );
+
+    case "chart":
+      // node.id를 키로 사용하여 해당 차트의 날짜 범위 가져오기
+      const chartDateRange = dateRanges[node.id];
+      return (
+        <div id={node.id} style={styleMerged}>
+          <Chart node={node} dateRange={chartDateRange} />
+        </div>
+      );
+      
+    case "dateRangeSearch":
+      // linkedChartId를 사용하여 연결된 차트 지정
+      return (
+        <div id={node.id} style={{...styleMerged, backgroundColor: "none", border: "none"}}>
+          <DateRangeSearch 
+            node={node} 
+            onDateRangeChange={(start, end) => {
+              if (node.linkedChartId) {
+                onDateRangeChange?.(node.linkedChartId, start, end);
+              }
+            }} 
+          />
+        </div>
+      );
   }
 }
 
@@ -216,6 +244,33 @@ export default function PageRenderer({
   onInputEnter?: (shape: Shape, text: string) => void | Promise<void>;
   pending?: Set<string>;
 }) {
+  // 각 차트별 날짜 범위 관리 (key: chart의 id)
+  const [dateRanges, setDateRanges] = useState<Record<string, { start: string; end: string }>>(() => {
+    const end = new Date();
+    const start = new Date();
+    start.setDate(end.getDate() - 6);
+    const defaultRange = {
+      start: start.toISOString(),
+      end: end.toISOString()
+    };
+
+    // 모든 차트에 대한 초기 날짜 범위 설정
+    const initialRanges: Record<string, { start: string; end: string }> = {};
+    nodes.forEach(node => {
+      if (node.type === 'chart') {
+        initialRanges[node.id] = { ...defaultRange };
+      }
+    });
+    return initialRanges;
+  });
+
+  const handleDateRangeChange = (chartId: string, start: string, end: string) => {
+    setDateRanges(prev => ({
+      ...prev,
+      [chartId]: { start, end }
+    }));
+  };
+
   return (
     <div
       style={{
@@ -232,6 +287,8 @@ export default function PageRenderer({
           onShapeClick={onShapeClick}
           onInputEnter={onInputEnter}
           isPending={n.dataID ? !!pending?.has(n.dataID) : false}
+          dateRanges={dateRanges}
+          onDateRangeChange={handleDateRangeChange}
         />
       ))}
     </div>

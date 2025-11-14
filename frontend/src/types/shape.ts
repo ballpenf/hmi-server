@@ -30,6 +30,17 @@ interface CommonShapeBase {
   display?: string;
 }
 
+// 차트 모드 타입 정의
+export type ChartMode = 'realtime' | 'trend';
+
+// 차트 시리즈 타입 정의
+export interface ChartSeries {
+  name: string;
+  data: number[];
+  dataID?: string;
+  color?: string;
+}
+
 export type Shape =
   | (CommonShapeBase & { type: "circle"; text: string })
   | (CommonShapeBase & { type: "square"; text: string })
@@ -37,11 +48,27 @@ export type Shape =
   | (CommonShapeBase & { type: "textarea"; value?: string })
   | (CommonShapeBase & { type: "image"; src: string })
   | (CommonShapeBase & {
-      type: "button";
-      text: string;
-      value?: string | number;
-    })
+    type: "button";
+    text: string;
+    value?: string | number;
+  })
   | (CommonShapeBase & { type: "label" })
   | (CommonShapeBase & { type: "pcs_on" })
   | (CommonShapeBase & { type: "pcs_off" })
-  | (CommonShapeBase & { type: "battery"; value: number });
+  | (CommonShapeBase & { type: "battery"; value: number })
+  | (CommonShapeBase & {
+    type: 'chart';
+    series: ChartSeries[];
+    dateRange?: {
+      start: string;
+      end: string;
+    };
+    darkMode?: boolean;
+    chartMode: ChartMode;
+  })
+  | (CommonShapeBase & {
+    type: 'dateRangeSearch';
+    startDate?: string;
+    endDate?: string;
+    linkedChartId?: string;
+  });

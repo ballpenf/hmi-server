@@ -1,0 +1,103 @@
+[
+  {
+    "id": "chart-1",
+    "type": "chart",
+    "x": 39,
+    "y": 66,
+    "width": 600,
+    "height": 400,
+    "zIndex": 1,
+    "display": "block",
+    "style": {
+      "backgroundColor": "#fff",
+      "border": "1px solid #eee"
+    },
+    "series": [
+      {
+        "name": "시리즈1",
+        "data": [
+          5,
+          20,
+          36,
+          10,
+          10,
+          20
+        ],
+        "color": "#5470c6",
+        "dataID": "test"
+      }
+    ],
+    "darkMode": true,
+    "chartMode": "realtime"
+  },
+  {
+    "id": "chart-2",
+    "type": "chart",
+    "x": 654,
+    "y": 273,
+    "width": 600,
+    "height": 400,
+    "zIndex": 1,
+    "display": "block",
+    "style": {
+      "backgroundColor": "#fff",
+      "border": "1px solid #eee"
+    },
+    "series": [
+      {
+        "name": "시리즈1",
+        "data": [
+          5,
+          20,
+          36,
+          10,
+          10,
+          20
+        ],
+        "color": "#5470c6",
+        "dataID": "test"
+      },
+      {
+        "name": "시리즈2",
+        "data": [
+          30,
+          24,
+          33,
+          14,
+          6,
+          17
+        ],
+        "color": "#d07a6a",
+        "dataID": "test2"
+      },
+      {
+        "name": "시리즈3",
+        "data": [
+          14,
+          13,
+          0,
+          4,
+          9,
+          34
+        ],
+        "color": "#71d8bf",
+        "dataID": "test3"
+      }
+    ],
+    "darkMode": false,
+    "chartMode": "trend"
+  },
+  {
+    "id": "dateRangeSearch-1",
+    "type": "dateRangeSearch",
+    "x": 654,
+    "y": 223,
+    "width": 600,
+    "height": 50,
+    "zIndex": 2,
+    "display": "block",
+    "linkedChartId": "chart-2",
+    "startDate": "2025-11-07T11:20",
+    "endDate": "2025-11-14T11:20"
+  }
+]
