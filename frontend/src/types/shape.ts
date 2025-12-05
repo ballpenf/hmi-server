@@ -33,12 +33,42 @@ interface CommonShapeBase {
 // 차트 모드 타입 정의
 export type ChartMode = 'realtime' | 'trend';
 
+// 차트 선 스타일 타입 정의
+export type LineStyle = 'solid' | 'dashed' | 'dotted';
+
+// 차트 축 설정 타입 정의
+export interface AxisSettings {
+  yAxisMin?: number | 'auto';
+  yAxisMax?: number | 'auto';
+  showGridLines?: boolean;
+}
+
+// 차트 데이터 포인트 설정 타입 정의
+export interface DataPointSettings {
+  showMarker?: boolean;
+  markerSize?: number;
+  markerShape?: 'circle' | 'rect' | 'triangle' | 'diamond';
+  showLabel?: boolean;
+}
+
 // 차트 시리즈 타입 정의
 export interface ChartSeries {
   name: string;
   data: number[];
   dataID?: string;
   color?: string;
+}
+
+// 게이지 컬러 타입 정의
+export interface GaugeColorRange {
+  threshold: number;
+  color: string;
+}
+
+// 게이지 폰트 크기 타입 정의
+export interface GaugeFontSize {
+  detail: number;
+  axisLabel: number;
 }
 
 export type Shape =
@@ -65,10 +95,28 @@ export type Shape =
     };
     darkMode?: boolean;
     chartMode: ChartMode;
+    lineWidth?: number;        // 선 굵기 
+    lineStyle?: LineStyle;     // 선 스타일 
+    areaOpacity?: number;      // 영역 채우기 투명도 
+    axisSettings?: AxisSettings;
+    dataPointSettings?: DataPointSettings;
   })
   | (CommonShapeBase & {
     type: 'dateRangeSearch';
     startDate?: string;
     endDate?: string;
     linkedChartId?: string;
+  })
+  | (CommonShapeBase & {
+    type: 'gauge';
+    value: number;
+    min: number;
+    max: number;
+    title?: string;
+    darkMode?: boolean;
+    showAxisLabel?: boolean; // 눈금 숫자 라벨만 표시/숨김
+    splitNumber?: number; // 눈금 개수
+    axisLineWidth?: number;
+    colorRanges?: GaugeColorRange[];
+    fontSize?: GaugeFontSize;
   });

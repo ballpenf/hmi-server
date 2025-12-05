@@ -5,6 +5,7 @@ import Pcs_off from "./objects/pcs_off";
 import Battery from "./objects/battery";
 import Chart from "./Chart/Chart";
 import DateRangeSearch from "./Chart/DateRangeSearch";
+import Gauge from "./Chart/Gauge";
 
 function baseBox(n: Shape): CSSProperties {
   return {
@@ -207,23 +208,30 @@ function NodeView({
       // node.id를 키로 사용하여 해당 차트의 날짜 범위 가져오기
       const chartDateRange = dateRanges[node.id];
       return (
-        <div id={node.id} style={styleMerged}>
+        <div id={node.id} style={{ ...styleMerged, border: "none" }}>
           <Chart node={node} dateRange={chartDateRange} />
         </div>
       );
-      
+
     case "dateRangeSearch":
       // linkedChartId를 사용하여 연결된 차트 지정
       return (
-        <div id={node.id} style={{...styleMerged, backgroundColor: "none", border: "none"}}>
-          <DateRangeSearch 
-            node={node} 
+        <div id={node.id} style={{ ...styleMerged, backgroundColor: "none", border: "none" }}>
+          <DateRangeSearch
+            node={node}
             onDateRangeChange={(start, end) => {
               if (node.linkedChartId) {
                 onDateRangeChange?.(node.linkedChartId, start, end);
               }
-            }} 
+            }}
           />
+        </div>
+      );
+
+    case "gauge":
+      return (
+        <div id={node.id} style={{ ...styleMerged, border: "none" }}>
+          <Gauge node={node} />
         </div>
       );
   }
