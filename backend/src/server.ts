@@ -7,6 +7,7 @@ import { assertDb, pool } from "./db/mariadb.js";
 import mainRoute from "./routes/mainRoute.js";
 import dataRoute from "./routes/dataRoute.js";
 import pagesRoute from "./routes/pagesRoute.js";
+import chartRoute from "./routes/chartRoute.js";
 
 const app = express();
 app.use(cors());
@@ -16,6 +17,7 @@ app.use(morgan("dev"));
 app.use("/api", pagesRoute);
 app.use("/api/data", dataRoute);
 app.use("/api/main", mainRoute);
+app.use("/api/chart", chartRoute);
 
 app.use((_req, res) => res.status(404).json({ error: "not found" }));
 
