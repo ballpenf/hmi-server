@@ -1,7 +1,7 @@
 import { useState, type CSSProperties } from "react";
 import type { Shape } from "../types/shape";
-import Pcs_on from "./objects/pcs_on";
-import Pcs_off from "./objects/pcs_off";
+//import Pcs_on from "./objects/pcs_on";
+//import Pcs_off from "./objects/pcs_off";
 import Battery from "./objects/battery";
 
 function baseBox(n: Shape): CSSProperties {
@@ -68,12 +68,7 @@ function NodeView({
             ...styleMerged,
           }}
         >
-          {/* {node.text ?? null} */}
-          {node.id === "square-89" ||
-          node.id === "square-91" ||
-          node.id === "square-92"
-            ? null
-            : node.text ?? null}
+          {node.text ?? null}
         </div>
       );
 
@@ -91,7 +86,21 @@ function NodeView({
         />
       );
 
-    case "button":
+    case "button": {
+      const content = node.src ? (
+        <img
+          src={node.src}
+          alt={node.text || `${node.id} 이미지`}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "contain",
+          }}
+        />
+      ) : (
+        node.text ?? "Button"
+      );
+
       return (
         <button
           id={node.id}
@@ -102,15 +111,17 @@ function NodeView({
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+            ...(node.src ? { padding: 0 } : {}),
           }}
           disabled={isPending}
           onClick={() => {
             if (!isPending) onShapeClick?.(node);
           }}
         >
-          {node.text ?? "Button"}
+          {content}
         </button>
       );
+    }
 
     case "input":
       return (
@@ -167,26 +178,6 @@ function NodeView({
 
     case "label":
       return <div id={node.id} style={styleMerged} />;
-
-    case "pcs_on":
-      return (
-        <Pcs_on
-          id={node.id}
-          width={node.width}
-          height={node.height}
-          style={styleMerged}
-        />
-      );
-
-    case "pcs_off":
-      return (
-        <Pcs_off
-          id={node.id}
-          width={node.width}
-          height={node.height}
-          style={styleMerged}
-        />
-      );
 
     case "battery":
       return (

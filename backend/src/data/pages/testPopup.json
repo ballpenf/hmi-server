@@ -1,0 +1,215 @@
+[
+  {
+    "id": "square-1",
+    "type": "square",
+    "x": 0,
+    "y": 0,
+    "width": 200,
+    "height": 200,
+    "text": "",
+    "zIndex": 1,
+    "style": {
+      "backgroundColor": "rgb(0, 0, 0)"
+    },
+    "display": "flex",
+    "action": null,
+    "binding": null
+  },
+  {
+    "id": "square-2",
+    "type": "square",
+    "x": 17,
+    "y": 16,
+    "width": 160,
+    "height": 42,
+    "text": "테스트 팝업입니다.",
+    "zIndex": 2,
+    "style": {
+      "backgroundColor": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)"
+    },
+    "display": "flex",
+    "action": null,
+    "binding": null
+  },
+  {
+    "id": "button-2",
+    "type": "button",
+    "x": 13,
+    "y": 100,
+    "width": 70,
+    "height": 30,
+    "text": "입력",
+    "zIndex": 4,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "display": "block",
+    "action": {
+      "id": "actionGroup-19",
+      "type": "GROUP",
+      "name": "New Group 19",
+      "children": [
+        {
+          "id": "action-1766391719129",
+          "type": "WAIT",
+          "name": "2초 대기",
+          "enabled": true,
+          "duration": 2000
+        },
+        {
+          "id": "actionGroup-18",
+          "type": "GROUP",
+          "name": "테스트입력",
+          "children": [
+            {
+              "id": "action-1766381114968",
+              "type": "SET",
+              "name": "값 입력",
+              "enabled": true,
+              "targetIds": [
+                "totalpower"
+              ],
+              "value": "1",
+              "valueSource": "static"
+            },
+            {
+              "id": "action-1766386252303",
+              "type": "WAIT",
+              "name": "2초 대기",
+              "enabled": true,
+              "duration": 2000
+            },
+            {
+              "id": "action-1766386267045",
+              "type": "SET",
+              "name": "값 입력",
+              "enabled": true,
+              "targetIds": [
+                "totalpower"
+              ],
+              "value": "2",
+              "valueSource": "static"
+            },
+            {
+              "id": "action-1766386323117",
+              "type": "WAIT",
+              "name": "2초 대기",
+              "enabled": true,
+              "duration": 2000
+            },
+            {
+              "id": "action-1766390237157",
+              "type": "SET",
+              "name": "값 입력",
+              "enabled": true,
+              "targetIds": [
+                "totalpower"
+              ],
+              "value": "0",
+              "valueSource": "static"
+            },
+            {
+              "id": "action-1766390256197",
+              "type": "WAIT",
+              "name": "2초 대기",
+              "enabled": true,
+              "duration": 2000
+            },
+            {
+              "id": "action-1766390262509",
+              "type": "SET",
+              "name": "값 입력",
+              "enabled": true,
+              "targetIds": [
+                "totalpower"
+              ],
+              "value": "3",
+              "valueSource": "static"
+            },
+            {
+              "id": "action-1766390362011",
+              "type": "WAIT",
+              "name": "2초 대기",
+              "enabled": true,
+              "duration": 2000
+            },
+            {
+              "id": "action-1766390415875",
+              "type": "NAVIGATE",
+              "name": "New Function 36",
+              "enabled": true,
+              "targetType": "close",
+              "targetPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    "binding": null,
+    "src": "",
+    "command": {
+      "targetId": "",
+      "type": "set",
+      "value": ""
+    },
+    "scale": {
+      "scale": null,
+      "unit": null,
+      "decimal": 0
+    }
+  },
+  {
+    "id": "button-1",
+    "type": "button",
+    "x": 107,
+    "y": 98,
+    "width": 70,
+    "height": 30,
+    "text": "닫기",
+    "zIndex": 4,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "display": "block",
+    "action": {
+      "id": "actionGroup-15",
+      "type": "GROUP",
+      "name": "팝업닫기",
+      "children": [
+        {
+          "id": "action-1766123939994",
+          "type": "NAVIGATE",
+          "name": "팝업닫기",
+          "enabled": true,
+          "targetType": "close",
+          "targetPath": ""
+        }
+      ]
+    },
+    "binding": null,
+    "src": "",
+    "command": {
+      "targetId": "",
+      "type": "set",
+      "value": ""
+    },
+    "scale": {
+      "scale": null,
+      "unit": null,
+      "decimal": 0
+    }
+  }
+]

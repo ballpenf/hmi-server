@@ -1,0 +1,192 @@
+[
+  {
+    "id": "square-1",
+    "type": "square",
+    "x": 0,
+    "y": 0,
+    "width": 200,
+    "height": 200,
+    "text": "",
+    "zIndex": 1,
+    "style": {
+      "backgroundColor": "rgb(30, 43, 55)"
+    },
+    "display": "flex",
+    "action": null,
+    "binding": null
+  },
+  {
+    "id": "square-2",
+    "type": "square",
+    "x": 21,
+    "y": 19,
+    "width": 147,
+    "height": 54,
+    "text": "pcs1 동작",
+    "zIndex": 2,
+    "style": {
+      "backgroundColor": "orange"
+    },
+    "display": "flex",
+    "action": null,
+    "binding": null
+  },
+  {
+    "id": "button-1",
+    "type": "button",
+    "x": 14,
+    "y": 128,
+    "width": 70,
+    "height": 30,
+    "text": "동작",
+    "zIndex": 3,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "display": "block",
+    "action": {
+      "id": "actionGroup-1766467232107",
+      "type": "GROUP",
+      "name": "New Group 15",
+      "children": [
+        {
+          "id": "actionGroup-1766466954338",
+          "type": "GROUP",
+          "name": "New Group 14",
+          "children": [
+            {
+              "id": "action-1766466959100",
+              "type": "SET",
+              "name": "set 0",
+              "enabled": true,
+              "targetIds": [
+                "pcs1state"
+              ],
+              "value": "0",
+              "valueSource": "static"
+            },
+            {
+              "id": "action-1766467016901",
+              "type": "WAIT",
+              "name": "delay 2000",
+              "enabled": true,
+              "duration": 2000
+            },
+            {
+              "id": "action-1766467029299",
+              "type": "SET",
+              "name": "set 1",
+              "enabled": true,
+              "targetIds": [
+                "pcs1state"
+              ],
+              "value": "1",
+              "valueSource": "static"
+            },
+            {
+              "id": "action-1766467041940",
+              "type": "WAIT",
+              "name": "delay 2000",
+              "enabled": true,
+              "duration": 2000
+            },
+            {
+              "id": "action-1766467051725",
+              "type": "SET",
+              "name": "set 2",
+              "enabled": true,
+              "targetIds": [
+                "pcs1state"
+              ],
+              "value": "2",
+              "valueSource": "static"
+            }
+          ]
+        },
+        {
+          "id": "action-1766467242254",
+          "type": "WAIT",
+          "name": "delay2",
+          "enabled": true,
+          "duration": 2000
+        },
+        {
+          "id": "action-1766467260053",
+          "type": "SET",
+          "name": "New Function 68",
+          "enabled": true,
+          "targetIds": [
+            "pcs1state"
+          ],
+          "value": "0",
+          "valueSource": "static"
+        }
+      ]
+    },
+    "binding": null,
+    "src": "",
+    "command": {
+      "targetId": "",
+      "type": "set",
+      "value": ""
+    },
+    "scale": {
+      "scale": null,
+      "unit": null,
+      "decimal": 0
+    }
+  },
+  {
+    "id": "button-2",
+    "type": "button",
+    "x": 101,
+    "y": 128,
+    "width": 70,
+    "height": 30,
+    "text": "닫기",
+    "zIndex": 4,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "display": "block",
+    "action": {
+      "id": "actionGroup-1766466812841",
+      "type": "GROUP",
+      "name": "windowClose",
+      "children": [
+        {
+          "id": "action-1766466912641",
+          "type": "NAVIGATE",
+          "name": "windowClose",
+          "enabled": true,
+          "targetType": "close",
+          "targetPath": ""
+        }
+      ]
+    },
+    "binding": null,
+    "src": "",
+    "command": {
+      "targetId": "",
+      "type": "set",
+      "value": ""
+    },
+    "scale": {
+      "scale": null,
+      "unit": null,
+      "decimal": 0
+    }
+  }
+]

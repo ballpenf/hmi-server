@@ -25,7 +25,6 @@ export async function getValues(
 
   // // 요청에는 있었지만 DB에는 없는 키를 null로 채우고 싶다면:
   // for (const id of ids) if (!(id in map)) map[id] = null;
-
   return map;
 }
 
@@ -33,7 +32,7 @@ export async function setValues(
   updates: { id: string; value: unknown }[]
 ): Promise<void> {
   if (updates.length === 0) return;
-
+  console.log("setValues", updates);
   const sql = `UPDATE tooltest SET \`value\` = ? WHERE id = ?`;
   const promises = updates.map((u) =>
     pool.execute<ResultSetHeader>(sql, [u.value, u.id])

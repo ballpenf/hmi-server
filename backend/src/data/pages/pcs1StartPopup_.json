@@ -1,0 +1,225 @@
+[
+  {
+    "id": "square-1",
+    "type": "square",
+    "x": 0,
+    "y": 0,
+    "width": 300,
+    "height": 200,
+    "text": "",
+    "zIndex": 1,
+    "style": {
+      "backgroundColor": "rgb(0, 0, 0)"
+    },
+    "display": "flex",
+    "action": null,
+    "binding": null
+  },
+  {
+    "id": "button-1",
+    "type": "button",
+    "x": 40,
+    "y": 120,
+    "width": 90,
+    "height": 50,
+    "text": "확인",
+    "zIndex": 2,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "display": "block",
+    "action": {
+      "id": "actionGroup-12",
+      "type": "GROUP",
+      "name": "pcs#1운전모드 설정 - 충전",
+      "children": [
+        {
+          "id": "action-1766112580786",
+          "type": "SET",
+          "name": "pcs#1 운전모드설정 - 충전",
+          "enabled": true,
+          "targetIds": [
+            "bat1state"
+          ],
+          "value": "1",
+          "valueSource": "static"
+        }
+      ]
+    },
+    "binding": null,
+    "src": "",
+    "command": {
+      "targetId": "",
+      "type": "set",
+      "value": ""
+    },
+    "scale": {
+      "scale": null,
+      "unit": "A",
+      "decimal": 0
+    }
+  },
+  {
+    "id": "button-2",
+    "type": "button",
+    "x": 170,
+    "y": 120,
+    "width": 90,
+    "height": 50,
+    "text": "닫기",
+    "zIndex": 3,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "display": "block",
+    "action": {
+      "id": "actionGroup-15",
+      "type": "GROUP",
+      "name": "팝업닫기",
+      "children": [
+        {
+          "id": "action-1766123939994",
+          "type": "NAVIGATE",
+          "name": "New Function 23",
+          "enabled": true,
+          "targetType": "close",
+          "targetPath": ""
+        }
+      ]
+    },
+    "binding": null,
+    "src": "",
+    "command": {
+      "targetId": "",
+      "type": "set",
+      "value": ""
+    },
+    "scale": {
+      "scale": null,
+      "unit": null,
+      "decimal": 0
+    }
+  },
+  {
+    "id": "square-2",
+    "type": "square",
+    "x": 50,
+    "y": 15,
+    "width": 100,
+    "height": 30,
+    "text": "현재상태 : ",
+    "zIndex": 4,
+    "style": {
+      "backgroundColor": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)"
+    },
+    "display": "flex",
+    "action": null,
+    "binding": null
+  },
+  {
+    "id": "square-3",
+    "type": "square",
+    "x": 100,
+    "y": 60,
+    "width": 150,
+    "height": 50,
+    "text": "동작 하시겠습니까?",
+    "zIndex": 5,
+    "style": {
+      "backgroundColor": "rgb(0, 0, 0)",
+      "fontWeight": "normal",
+      "fontSize": 16,
+      "color": "rgb(255, 255, 255)"
+    },
+    "display": "flex",
+    "action": null,
+    "binding": null
+  },
+  {
+    "id": "square-4",
+    "type": "square",
+    "x": 150,
+    "y": 15,
+    "width": 100,
+    "height": 30,
+    "text": "상태 값",
+    "zIndex": 6,
+    "style": {
+      "backgroundColor": "orange",
+      "fontWeight": "bold"
+    },
+    "display": "flex",
+    "action": null,
+    "binding": {
+      "groupId": "bindingGroup-11",
+      "groupName": "배터리#1 상태",
+      "functions": [
+        {
+          "id": "bindingFunc38",
+          "name": "배터리#1 상태 on",
+          "tag": "bat1state",
+          "description": "배터리#1 상태 on",
+          "enum": "1",
+          "text": "충전",
+          "backgroundColor": "#1e2b37",
+          "textColor": "#00bcd4",
+          "invisible": false
+        },
+        {
+          "id": "bindingFunc39",
+          "name": "배터리#1 상태 on",
+          "tag": "bat1state",
+          "description": "배터리#1 상태 on",
+          "enum": "0",
+          "text": "방전",
+          "backgroundColor": "#1e2b37",
+          "textColor": "#f5a623",
+          "invisible": false
+        }
+      ]
+    },
+    "src": "",
+    "command": {
+      "targetId": "",
+      "type": "set",
+      "value": ""
+    },
+    "scale": {
+      "scale": null,
+      "unit": "A",
+      "decimal": 0
+    }
+  },
+  {
+    "id": "square-5",
+    "type": "square",
+    "x": 50,
+    "y": 60,
+    "width": 50,
+    "height": 50,
+    "text": "충전",
+    "zIndex": 7,
+    "style": {
+      "backgroundColor": "rgb(0, 0, 0)",
+      "fontWeight": "bold",
+      "color": "rgb(0, 188, 212)",
+      "fontSize": 25
+    },
+    "display": "flex",
+    "action": null,
+    "binding": null
+  }
+]

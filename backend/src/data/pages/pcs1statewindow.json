@@ -1,0 +1,216 @@
+[
+  {
+    "id": "square-1",
+    "type": "square",
+    "x": 0,
+    "y": 0,
+    "width": 200,
+    "height": 200,
+    "text": "",
+    "zIndex": 1,
+    "style": {
+      "backgroundColor": "rgb(0, 0, 0)"
+    },
+    "display": "flex",
+    "action": null,
+    "binding": null
+  },
+  {
+    "id": "square-2",
+    "type": "square",
+    "x": 25,
+    "y": 10,
+    "width": 150,
+    "height": 50,
+    "text": "pcs#1 상태창",
+    "zIndex": 2,
+    "style": {
+      "backgroundColor": "orange",
+      "fontWeight": "bold",
+      "fontSize": 20
+    },
+    "display": "flex",
+    "action": null,
+    "binding": null
+  },
+  {
+    "id": "button-1",
+    "type": "button",
+    "x": 20,
+    "y": 125,
+    "width": 70,
+    "height": 30,
+    "text": "가동",
+    "zIndex": 3,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "display": "block",
+    "action": {
+      "id": "actionGroup-1766450025435",
+      "type": "GROUP",
+      "name": "pcs1ValueGroup",
+      "children": [
+        {
+          "id": "actionGroup-1766449689701",
+          "type": "GROUP",
+          "name": "pcs1ValueTest",
+          "children": [
+            {
+              "id": "action-1766449746413",
+              "type": "SET",
+              "name": "setValue 0",
+              "enabled": true,
+              "targetIds": [
+                "pcs1state"
+              ],
+              "value": "0",
+              "valueSource": "static"
+            },
+            {
+              "id": "action-1766449798735",
+              "type": "WAIT",
+              "name": "delay 2000",
+              "enabled": true,
+              "duration": 2000
+            },
+            {
+              "id": "action-1766449818515",
+              "type": "SET",
+              "name": "setValue 1",
+              "enabled": true,
+              "targetIds": [
+                "pcs1state"
+              ],
+              "value": "1",
+              "valueSource": "static"
+            },
+            {
+              "id": "action-1766449844181",
+              "type": "WAIT",
+              "name": "delay 2000",
+              "enabled": true,
+              "duration": 2000
+            },
+            {
+              "id": "action-1766449862609",
+              "type": "SET",
+              "name": "setValue 2",
+              "enabled": true,
+              "targetIds": [
+                "pcs1state"
+              ],
+              "value": "2",
+              "valueSource": "static"
+            },
+            {
+              "id": "action-1766449884966",
+              "type": "WAIT",
+              "name": "delay 2000",
+              "enabled": true,
+              "duration": 2000
+            },
+            {
+              "id": "action-1766449897357",
+              "type": "SET",
+              "name": "setValue 3",
+              "enabled": true,
+              "targetIds": [
+                "pcs1state"
+              ],
+              "value": "3",
+              "valueSource": "static"
+            }
+          ]
+        },
+        {
+          "id": "action-1766450393744",
+          "type": "WAIT",
+          "name": "New Function 49",
+          "enabled": true,
+          "duration": 2000
+        },
+        {
+          "id": "actionGroup-1766449976334",
+          "type": "GROUP",
+          "name": "closewindow",
+          "children": [
+            {
+              "id": "action-1766449984467",
+              "type": "NAVIGATE",
+              "name": "closewindow",
+              "enabled": true,
+              "targetType": "close",
+              "targetPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    "binding": null,
+    "src": "",
+    "command": {
+      "targetId": "",
+      "type": "set",
+      "value": ""
+    },
+    "scale": {
+      "scale": null,
+      "unit": null,
+      "decimal": 0
+    }
+  },
+  {
+    "id": "button-2",
+    "type": "button",
+    "x": 110,
+    "y": 125,
+    "width": 70,
+    "height": 30,
+    "text": "닫기",
+    "zIndex": 4,
+    "style": {
+      "backgroundColor": "#f0f0f0",
+      "borderRadius": "5px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "minWidth": "30px",
+      "minHeight": "30px"
+    },
+    "display": "block",
+    "action": {
+      "id": "actionGroup-1766449976334",
+      "type": "GROUP",
+      "name": "closewindow",
+      "children": [
+        {
+          "id": "action-1766449984467",
+          "type": "NAVIGATE",
+          "name": "closewindow",
+          "enabled": true,
+          "targetType": "close",
+          "targetPath": ""
+        }
+      ]
+    },
+    "binding": null,
+    "src": "",
+    "command": {
+      "targetId": "",
+      "type": "set",
+      "value": ""
+    },
+    "scale": {
+      "scale": null,
+      "unit": null,
+      "decimal": 0
+    }
+  }
+]

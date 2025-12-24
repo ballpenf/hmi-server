@@ -3,7 +3,7 @@ import * as dataService from "../services/dataService.js";
 
 export const getValues: RequestHandler = async (req, res, next) => {
   try {
-    const raw = req.body?.ids as unknown;
+    const raw = req.body?.tags as unknown;
 
     // 1) 배열인지 확인
     if (!Array.isArray(raw)) {
@@ -36,10 +36,9 @@ export const getValues: RequestHandler = async (req, res, next) => {
 };
 
 export const setValues: RequestHandler = async (req, res, next) => {
+  console.log("setValues controller", req.body.updates);
   try {
     const data = await dataService.setValues(req.body.updates);
-    console.log("setValues", req.body.updates[0].id);
-
     //pcs 충전방전시 배터리 충전방전 모듈
     if (req.body.updates[0].id === "pcs1mode") {
       const data = await dataService.setValues([

@@ -113,21 +113,28 @@ function DynamicRouteHandler() {
   const { alias } = useParams<{ alias: string }>();
 
   // useHmiPage 훅에 alias를 전달하여 해당 JSON 파일(예: monitorPage.json)을 로드
-  const { loading, err, merged, pending, runCommand, commitInputValue } =
-    useHmiPage(alias || "login", { intervalMs: 1000 });
+  const {
+    //loading,
+    err,
+    merged,
+    pending,
+    /*runCommand*/ runAction,
+    commitInputValue,
+  } = useHmiPage(alias || "login", { intervalMs: 1000 });
   // 404 처리 (선택 사항: 홈 등 제외하고 모든 경로가 HMI 페이지라고 가정)
   if (!alias) {
     return <div>잘못된 접근입니다.</div>;
   }
 
-  if (loading) return <div>{alias} 로딩중…</div>;
+  //if (loading) return <div>{alias} 로딩중…</div>;
   if (err) return <div>❌ {err}</div>;
   if (!merged) return <div>데이터 없음</div>;
 
   return (
     <PageRenderer
       nodes={merged}
-      onShapeClick={runCommand}
+      //onShapeClick={runCommand}
+      onShapeClick={runAction}
       onInputEnter={commitInputValue}
       pending={pending}
     />
